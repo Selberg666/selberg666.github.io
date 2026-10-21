@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ro">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Politica de confidențialitate AutoContract: OCR local, date personale, Google Drive opțional, stocare și ștergere."><meta name="theme-color" content="#081b24"><title>Confidențialitate — AutoContract</title><link rel="icon" type="image/png" href="assets/logo.png"><link rel="stylesheet" href="style.css"></head>
+<body><a class="skip" href="#continut">Sari la conținut</a><header class="top wrap"><a class="brand" href="index.html"><img src="assets/logo.png" alt="" width="46" height="46"><span>AutoContract</span></a><nav aria-label="Navigare principală"><a href="index.html">Prezentare</a><a href="confidentialitate.html" aria-current="page">Confidențialitate</a><a href="mailto:selberg90@gmail.com">Contact</a></nav></header><main class="policy wrap" id="continut"><a class="back" href="index.html">← Înapoi la AutoContract</a><p class="eyebrow">DATELE TALE</p><h1>Politica de confidențialitate</h1><div class="summary"><p><strong>Pe scurt:</strong> OCR-ul citește actele pe dispozitiv. Alegi dacă arhiva se sincronizează în propriul Google Drive. Catalogul pentru căutare poate conține date personale. Ștergerea locală și deconectarea nu șterg automat copiile din Drive.</p></div>
+<p>Data redactării: <strong>21 octombrie 2026</strong></p>
+<p>Versiunea aplicației descrisă: <strong>1.12.1</strong></p>
+<p><strong>Furnizorul aplicației:</strong> Selberg</p>
+<p><strong>Contact pentru suport și confidențialitate:</strong> selberg90@gmail.com</p>
+<h2>1. Ce face aplicația</h2>
+<p>AutoContract ajută utilizatorul să pregătească și să arhiveze contracte auto, folosind date introduse manual sau extrase din documente prin OCR. Utilizatorul verifică și confirmă informațiile &#238;nainte de folosirea lor &#238;n contract.</p>
+<p>Aplicația păstrează date local și oferă opțional stocare &#238;n contul Google Drive ales de utilizator. Integrarea Drive comunică direct cu serviciile Google; nu folosește un server central AutoContract pentru arhivarea acestor documente.</p>
+<h2>2. Ce date sunt prelucrate</h2>
+<p>&#206;n funcție de documentele și c&#226;mpurile folosite, aplicația poate prelucra:</p>
+<ul>
+<li>nume, prenume, CNP, seria și numărul actului de identitate, domiciliul și alte informații completate &#238;n contract;</li>
+<li>date despre vehicul, precum seria de șasiu, numărul de &#238;nmatriculare, date CIV, anul, marca și caracteristicile tehnice;</li>
+<li>fotografii ale documentelor, imagini decupate și pagini importate din PDF-uri;</li>
+<li>prețul, moneda, data și localitatea contractului;</li>
+<li>semnături desenate de utilizatori, dacă această opțiune este folosită;</li>
+<li>contracte PDF, PDF-uri cu copii ale actelor, ciorne și profiluri salvate de clienți sau vehicule.</li>
+</ul>
+<p>După conectarea la Google Drive, aplicația primește de la Google identificatorul contului Drive, adresa de e-mail și numele afișat. Acestea identifică arhiva și contul ales; preferințele contului și un catalog al arhivei se păstrează local.</p>
+<h2>3. Citirea documentelor și accesul la cameră</h2>
+<p>OCR-ul folosește Google ML Kit pe dispozitiv. Codul de citire al aplicației procesează imaginile local și nu le trimite unui serviciu online de recunoaștere sau unui serviciu AI de conversație.</p>
+<p>Permisiunea camerei este folosită c&#226;nd alegi să fotografiezi documente. Alternativ, poți selecta documente existente prin selectorul Android. Fișierele importate pot fi copiate &#238;n spațiul aplicației pentru citire, decupare, ciorne și arhivare.</p>
+<p>Conform documentației Google, SDK-ul ML Kit poate comunica informații tehnice despre dispozitiv, aplicație, utilizarea și performanța funcțiilor sale pentru diagnosticare, &#238;ntreținere și &#238;mbunătățire. Aceste informații tehnice sunt distincte de imaginile și rezultatele OCR, care sunt prelucrate pe dispozitiv. Detalii: <a href="https://developers.google.com/ml-kit/terms">https://developers.google.com/ml-kit/terms</a> și <a href="https://developers.google.com/ml-kit/android-data-disclosure">https://developers.google.com/ml-kit/android-data-disclosure</a>.</p>
+<h2>4. Google Drive este opțional</h2>
+<p>Poți păstra modul „Doar pe telefon”. Conectarea la Google nu pornește singură &#238;ncărcarea arhivei. Pentru prima &#238;ncărcare, alegi un mod cu Drive și pornești sincronizarea. După această primă alegere, contractele noi pot fi sincronizate c&#226;t timp aplicația este deschisă și modul cu Drive răm&#226;ne activ.</p>
+<p>Sincronizarea poate &#238;ncărca &#238;n folderul AutoContract din contul ales: PDF-urile contractelor și copiilor de acte, fotografiile originale și decupate asociate contractelor, c&#226;mpurile contractelor și profilurile salvate de clienți sau vehicule. Ciornele răm&#226;n locale &#238;n această versiune.</p>
+<p>Datele de catalog pot include nume, CNP, adrese și seria de șasiu. &#206;n modul „economisește spațiu”, catalogul răm&#226;ne pe telefon pentru căutare, chiar dacă anumite fotografii sau PDF-uri sunt eliberate local.</p>
+<p>AutoContract solicită permisiunea Google Drive <code>drive.file</code>, pentru fișierele create de aplicație sau autorizate pentru aceasta. Autorizarea este gestionată de Google. Aplicația nu &#238;ți cere parola Google. Tokenurile de acces utilizate de codul AutoContract sunt păstrate &#238;n memorie, nu &#238;n catalogul arhivei sau preferințele aplicației.</p>
+<p>Transferurile către Drive folosesc HTTPS. Funcționarea și stocarea serviciului Google sunt supuse politicilor Google; această politică nu promite criptare suplimentară de la un capăt la altul realizată de AutoContract.</p>
+<p>Informațiile primite prin API-urile Google sunt utilizate pentru funcțiile de arhivare, sincronizare, căutare și descărcare cerute de utilizator. AutoContract nu comercializează aceste date și nu le folosește pentru reclame personalizate sau pentru antrenarea modelelor AI. Utilizarea și transferul informațiilor primite prin API-urile Google se supun Google API Services User Data Policy, inclusiv cerințelor Limited Use: <a href="https://developers.google.com/terms/api-services-user-data-policy">https://developers.google.com/terms/api-services-user-data-policy</a>. Politica Google este disponibilă la <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>.</p>
+<h2>5. Păstrarea, eliberarea spațiului și ștergerea</h2>
+<p>Arhiva locală se păstrează pentru folosirea și căutarea contractelor. &#206;n modul „economisește spațiu”, funcția de eliberare verifică fișierele &#238;ncărcate &#238;nainte să elimine copii locale eligibile. Catalogul, datele contractelor și ciornele sunt păstrate. Deschiderea ulterioară poate descărca din nou fișierele.</p>
+<p><strong>Ștergerea din arhiva locală nu șterge automat copia din Google Drive.</strong> &#206;n versiunea descrisă, aplicația nu propagă ștergerea către Drive. Pentru eliminarea copiilor din cloud, gestionează fișierele și coșul de gunoi direct &#238;n Google Drive.</p>
+<p>„Deconectează” oprește folosirea contului selectat și revine la stocarea locală. Nu șterge fișierele din Drive, nu garantează ștergerea tuturor copiilor locale deja descărcate și nu revocă autorizarea Google. Accesul aplicației poate fi revocat separat din setările contului Google.</p>
+<p>Dezinstalarea sau ștergerea datelor aplicației poate elimina datele private locale. PDF-urile, fotografiile sau backupurile salvate separat, precum și copiile din Drive, trebuie gestionate &#238;n locurile unde au fost salvate.</p>
+<h2>6. Distribuirea, imprimarea și backupul</h2>
+<p>Distribuirea, imprimarea, exportul și salvarea unei copii de siguranță sunt acțiuni pornite de utilizator. Fișierele ajung la aplicația, serviciul, imprimanta sau destinația aleasă de acesta. Un backup poate conține date personale, PDF-uri și fotografii ale actelor; păstrează-l &#238;ntr-o locație potrivită pentru aceste documente.</p>
+<p>Persoanele care introduc &#238;n aplicație actele altor persoane trebuie să se asigure că au dreptul să le folosească și să le salveze &#238;n destinațiile selectate.</p>
+<h2>7. Rapoarte tehnice</h2>
+<p>La o &#238;nchidere neașteptată poate fi creat local un raport tehnic cu versiunea aplicației, modelul dispozitivului, versiunea Android și structura erorii. Raportul exclude conținutul documentelor, mesajele excepțiilor, căile fișierelor și logcat-ul. Acest raport nu este trimis automat de funcția AutoContract; utilizatorul alege dacă &#238;l distribuie și către cine.</p>
+<h2>8. Contact și actualizări</h2>
+<p>Pentru &#238;ntrebări privind această aplicație sau datele prelucrate, contactează <strong>selberg90@gmail.com</strong>. Operatorii care folosesc aplicația pentru clienții lor gestionează separat propriile obligații față de acei clienți.</p>
+<p>Politica trebuie actualizată c&#226;nd se schimbă funcțiile sau modul de prelucrare a datelor.</p>
+<h2>9. Site-ul de prezentare</h2>
+<p>Site-ul de prezentare și această pagină sunt pagini statice pregătite pentru găzduire prin GitHub Pages. Paginile nu includ formulare pentru &#238;ncărcarea actelor, conturi de utilizator, scripturi de analiză sau cookie-uri proprii. Un link de contact deschide aplicația ta de e-mail; informațiile trimise &#238;ntr-un mesaj sunt alese de tine și sunt folosite pentru a răspunde solicitării.</p>
+<p>GitHub poate prelucra date tehnice ale vizitatorilor, inclusiv adresa IP, pentru furnizarea și securitatea găzduirii, conform propriei politici: <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement</a>. Publicarea paginii nu &#238;ncarcă și nu publică documentele din arhiva aplicației.</p>
+</main><footer class="wrap"><span>© 2026 Selberg · AutoContract</span><a href="mailto:selberg90@gmail.com">selberg90@gmail.com</a></footer></body></html>
