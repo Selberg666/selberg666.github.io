@@ -1,0 +1,166 @@
+{
+  "privacy": {
+    "ro": [
+      [
+        "Ce descrie această politică",
+        "AutoContract 1.20.5 (73) pregătește contracte auto românești și internaționale pe dispozitiv. Furnizorul aplicației este prezentat public ca Selberg. Contact pentru aplicație și confidențialitate: selberg90@gmail.com. Nu atribuim furnizorului identitatea ori adresa operatorului introdus de fiecare utilizator în aplicație."
+      ],
+      [
+        "Documente și date prelucrate",
+        "În funcție de funcțiile alese, sunt prelucrate nume, adrese, CNP, date ale actului de identitate, date despre vehicul și VIN, fotografii și pagini PDF, date ale tranzacției, semnături desenate, contracte, ciorne și profiluri de persoane sau vehicule. Informațiile pot fi introduse manual sau extrase prin OCR. Utilizatorul verifică informațiile și stabilește dreptul și temeiul adecvat pentru prelucrarea datelor altor persoane. Informarea din aplicație nu înregistrează automat consimțământul clientului pentru toate utilizările."
+      ],
+      [
+        "OCR local, cameră și import",
+        "PaddleOCR, rulat prin ONNX Runtime și OpenCV, procesează imaginile pe dispozitiv. Aplicația include și componente Google ML Kit. Codul de citire nu trimite fotografiile sau rezultatele OCR unui serviciu online de recunoaștere ori unui serviciu AI de conversație. Camera este folosită când alegi fotografierea; importul folosește selectorul Android. Copii ale imaginilor/PDF-urilor pot fi create în spațiul privat al aplicației pentru procesare și previzualizare. Originalele din galeria sau destinațiile alese de utilizator nu sunt șterse prin curățarea acestor copii temporare."
+      ],
+      [
+        "Sesiuni temporare și arhiva Professional",
+        "În modul gratuit și în Personal, sesiunile noi și copiile OCR folosite de acestea sunt temporare; previzualizările sunt private, iar curățarea se face la finalizare/anulare și după eliberarea operațiilor care încă folosesc fișierele. Un PDF salvat explicit rămâne la destinația aleasă. Personal nu creează o arhivă internă, o bază de clienți/vehicule sau o arhivă Drive pentru sesiunile noi. Professional permite arhivarea explicită. Păstrarea fotografiilor și sincronizarea Drive sunt alegeri separate. Datele și arhivele existente nu se șterg automat la expirarea abonamentului și rămân recuperabile și ștergibile."
+      ],
+      [
+        "Google Drive opțional",
+        "Conectarea și sincronizarea Drive sunt opționale și necesită autorizarea Google și alegerea corespunzătoare în aplicație. Conectarea singură nu încarcă automat toate actele. În funcție de alegerile de arhivare, pot fi sincronizate PDF-uri, fotografii asociate, câmpuri și profiluri salvate. Catalogul local poate conține date personale, inclusiv când fișierele sunt descărcate la cerere. Ciornele rămân locale. Google furnizează identificatorul contului, numele și adresa de e-mail pentru contul conectat. Permisiunea drive.file privește fișierele create de aplicație ori autorizate pentru aceasta. Aplicația nu cere parola Google; tokenurile de acces gestionate de codul AutoContract sunt păstrate în memorie. Transferurile folosesc HTTPS; nu promitem criptare suplimentară de la un capăt la altul sau spațiu Drive nelimitat."
+      ],
+      [
+        "Ștergere, retenție și deconectare",
+        "Utilizatorul/operatorul alege și gestionează durata de păstrare a documentelor și propriile obligații față de persoanele vizate. Setarea de retenție nu reprezintă o promisiune că toate datele se șterg automat după o anumită perioadă. Eliberarea spațiului pentru fișiere eligibile, după verificarea sincronizării, poate păstra catalogul local. Ștergerea locală nu șterge automat copiile din Google Drive. Pentru acestea, gestionează separat fișierele și coșul Drive. Deconectarea oprește folosirea contului ales, dar nu șterge copiile și nu revocă automat autorizarea Google; accesul poate fi revocat din setările contului Google. Dezinstalarea/ștergerea datelor aplicației poate elimina date locale și nu șterge copiile exportate ori cloud. Furnizorul nu poate șterge de la distanță date păstrate exclusiv pe telefon sau în contul Drive al utilizatorului."
+      ],
+      [
+        "Achiziții Google Play și servicii tehnice",
+        "Achizițiile Personal și abonamentele Pro sunt gestionate de Google Play Billing, separat de autorizarea Drive. Aplicația folosește identificatori de produse, tokenuri și starea achizițiilor pentru verificarea, confirmarea și restaurarea drepturilor. Aceste verificări comunică cu Google; OCR-ul local nu înseamnă că toate funcțiile aplicației sunt fără rețea. Google Play Billing nu furnizează automat aplicației adresa Gmail a cumpărătorului. AutoContract nu primește de la Billing numărul complet al cardului sau codul de securitate. Conform documentației Google, SDK-urile ML Kit pot transmite informații tehnice despre dispozitiv, aplicație și performanța funcțiilor pentru diagnosticare și analiză a utilizării. Acestea sunt distincte de documentele procesate local."
+      ],
+      [
+        "Export, imprimare, distribuire și rapoarte",
+        "Exportul, imprimarea, distribuirea și backupul sunt pornite de utilizator; documentele ajung la destinațiile și aplicațiile alese. Un backup poate conține date personale și trebuie păstrat corespunzător. Poate fi creat local un raport tehnic despre o închidere neașteptată, cu versiunea aplicației/dispozitivului și structura erorii, fără conținutul documentelor, mesajele excepțiilor, căile fișierelor sau Logcat. Funcția AutoContract nu îl trimite automat: utilizatorul decide dacă și cui îl distribuie."
+      ],
+      [
+        "Site, preferința de limbă și contact",
+        "Website-ul este static, găzduit prin GitHub Pages. Nu include formulare pentru încărcarea actelor, conturi web, plăți, scripturi de analiză ori cookie-uri proprii de urmărire. Reține local doar preferința RO/EN în browser (localStorage); aceasta poate fi eliminată din datele site-ului. Nu este trimisă unui server AutoContract. Furnizorul găzduirii poate prelucra date tehnice, inclusiv IP, pentru funcționare și securitate, conform propriei politici. Legăturile către Google Play, Google sau e-mail folosesc serviciile alese. Pentru solicitări privind această aplicație sau date ajunse efectiv la furnizor, scrie la selberg90@gmail.com; pentru date aflate exclusiv la utilizator, pot fi necesare acțiuni pe dispozitiv sau în Drive."
+      ],
+      [
+        "Utilizarea API-urilor Google și actualizări",
+        "Informațiile obținute prin API-urile Google sunt folosite pentru funcțiile de arhivare, sincronizare, căutare și descărcare cerute de utilizator, nu pentru vânzarea datelor, reclame personalizate sau antrenarea modelelor AI. Utilizarea și transferul lor se supun Google API Services User Data Policy, inclusiv cerințelor Limited Use. Această prezentare descrie funcțiile verificate; nu este o certificare sau o garanție generală de conformitate GDPR. Politica se actualizează atunci când se schimbă funcțiile ori modul de prelucrare."
+      ]
+    ],
+    "en": [
+      [
+        "Scope and contact",
+        "AutoContract 1.20.5 (73) prepares Romanian and international vehicle sale contracts on the device. The application provider is publicly identified as Selberg. Application and privacy contact: selberg90@gmail.com. The identity or address entered by an individual app user as their own data controller is not presented as the provider’s legal identity."
+      ],
+      [
+        "Documents and data processed",
+        "Depending on the selected features, processing can include names, addresses, Romanian personal identification numbers (CNP), identity-document details, vehicle details and VIN, photographs and PDF pages, transaction details, drawn signatures, contracts, drafts and saved person/vehicle profiles. Information is entered manually or extracted by OCR. Users verify the information and establish the appropriate right and lawful basis for processing other people’s data. The in-app notice does not automatically record a client’s consent for every subsequent use."
+      ],
+      [
+        "Local OCR, camera and imports",
+        "PaddleOCR, running through ONNX Runtime and OpenCV, processes images on the device. The app also includes Google ML Kit components. Its document-reading code does not send photographs or OCR results to an online recognition service or conversational AI service. Camera access is used when you choose to take a photograph; imports use the Android picker. Images/PDFs can be copied into private app storage for processing and preview. Cleaning up these temporary copies does not delete originals from your gallery or destinations you selected."
+      ],
+      [
+        "Temporary sessions and the Professional archive",
+        "New free and Personal sessions and their OCR copies are temporary; previews remain private and cleanup occurs when finishing/cancelling and after ongoing operations release their file references. An explicitly saved PDF remains at the destination you chose. Personal does not create an in-app archive, client/vehicle database or Drive archive for new sessions. Professional supports explicit archiving; retaining photographs and synchronising with Drive are separate choices. Existing data and archives are not automatically erased when a subscription expires and remain recoverable and deletable."
+      ],
+      [
+        "Optional Google Drive",
+        "Connecting and synchronising with Drive are optional and require Google authorisation and the relevant in-app choices. Connecting alone does not automatically upload every document. Depending on archiving choices, synchronisation may include PDFs, associated photographs, fields and saved profiles. The local catalogue can contain personal data even when files are downloaded on demand. Drafts remain local. Google provides the connected account’s identifier, name and email address. The drive.file scope covers files created by the app or authorised for it. The app does not request your Google password; access tokens handled by AutoContract code are held in memory. Transfers use HTTPS; no additional end-to-end encryption or unlimited Drive storage is promised."
+      ],
+      [
+        "Deletion, retention and disconnection",
+        "The user/data controller chooses and manages document retention and their obligations towards data subjects. A retention setting is not a promise that all data is automatically erased after a fixed period. Storage cleanup of eligible files after synchronisation checks can retain the local catalogue. Local deletion does not automatically erase Drive copies. Manage those files and the Drive trash separately. Disconnecting stops use of the selected account but does not delete copies or automatically revoke Google authorisation; revoke access in Google account settings if needed. Uninstalling/clearing app data can remove local data, but does not erase exported or cloud copies. The provider cannot remotely erase data held exclusively on your phone or in your own Drive account."
+      ],
+      [
+        "Google Play purchases and technical services",
+        "Personal purchases and Pro subscriptions use Google Play Billing, separately from Drive authorisation. The app uses product identifiers, purchase tokens and purchase status to verify, acknowledge and restore entitlements. These checks communicate with Google; local OCR does not mean every app feature is offline. Google Play Billing does not automatically give the app the purchaser’s Gmail address. AutoContract does not receive complete card numbers or card security codes from Billing. Google states that ML Kit SDKs may transmit technical device, app and performance information for diagnostics and usage analytics. This is separate from documents processed locally."
+      ],
+      [
+        "Export, printing, sharing and reports",
+        "Users initiate export, printing, sharing and backups; documents go to the chosen destinations and apps. Backups may contain personal data and should be stored appropriately. An unexpected closure can create a local technical report containing app/device version and error structure, excluding document content, exception messages, file paths and Logcat. The AutoContract reporting feature does not send it automatically: users choose whether and with whom to share it."
+      ],
+      [
+        "Website, language preference and contact",
+        "This is a static website hosted on GitHub Pages. It has no document-upload forms, web accounts, payments, analytics scripts or first-party tracking cookies. It stores only the RO/EN language preference locally in the browser (localStorage); clearing site data removes it. That preference is not sent to an AutoContract server. The hosting provider may process technical visitor data, including IP addresses, to operate and secure its service under its own policy. Links to Google Play, Google or email use the selected external services. Contact selberg90@gmail.com about the app or data actually received by the provider; data held exclusively by an app user may require action on the device or in Drive."
+      ],
+      [
+        "Google API use and updates",
+        "Information obtained through Google APIs is used for the archiving, synchronisation, search and download features requested by users, not data sales, personalised advertising or AI model training. Its use and transfer are subject to the Google API Services User Data Policy, including Limited Use requirements. This description reflects verified features and is not a certification or blanket GDPR compliance guarantee. It is updated when features or processing change."
+      ]
+    ]
+  },
+  "terms": {
+    "ro": [
+      [
+        "Aplicație și documente",
+        "AutoContract, furnizat public sub numele Selberg, este un instrument de completare și generare, nu o autoritate publică ori un serviciu de consultanță juridică. Contractul România folosește modelul ITL 054. Modelele pentru cele 11 țări străine sunt modele private, neoficiale, nu formulare oficiale certificate. Utilizatorul verifică datele, traducerea și cerințele tranzacției înainte de folosire; nu este garantată acceptarea de către autorități."
+      ],
+      [
+        "Acces gratuit și export",
+        "Instalarea, citirea OCR, completarea și previzualizarea contractelor sunt gratuite. Previzualizarea fără drept valid de export are watermark roșu SPECIMEN – FĂRĂ VALOARE JURIDICĂ și protecții de captură acolo unde Android le permite. Pentru salvarea, imprimarea sau distribuirea contractului final curat este necesar Personal ori Pro valid. Documentele de informare/dovadă privind prelucrarea datelor au propriul flux și nu sunt prezentate drept contracte finale cu plată."
+      ],
+      [
+        "AutoContract Personal",
+        "Preț de referință: 99,99 RON, plată unică prin Google Play. Personal este o achiziție nerecurentă și permite generarea nelimitată a contractelor românești și internaționale și salvarea, imprimarea ori distribuirea PDF-urilor curate. Este destinat utilizării personale, necomerciale și nu permite prestarea contra cost, pentru terți, a serviciilor de întocmire, generare ori furnizare a contractelor. Nu include arhiva internă, baza de date clienți/vehicule sau Google Drive pentru sesiunile noi. PDF-urile pot fi salvate explicit la destinația aleasă."
+      ],
+      [
+        "AutoContract Pro / Professional",
+        "Prețuri de referință: 49,99 RON/lună sau 399,99 RON/an, prin Google Play. Cât timp dreptul Pro este valid, permite generarea contractelor, utilizare personală și comercială, inclusiv servicii contra cost de completare, generare, imprimare și furnizare a documentelor pentru clienți. Include arhiva locală, profiluri de clienți/vehicule, reutilizarea datelor și Drive opțional. Pro se poate achiziționa direct, fără Personal. Selectarea unui cumpărător firmă într-un contract internațional nu este rezervată Pro; dreptul de prestare comercială este o chestiune separată."
+      ],
+      [
+        "Plată, reînnoire, anulare și restaurare",
+        "Site-ul nu încasează plăți. Prețul, moneda, taxele, intervalul și condițiile finale sunt cele afișate de Google Play înainte de confirmare. Abonamentele cu reînnoire automată se reînnoiesc conform condițiilor acceptate acolo până la anulare. Gestionarea/anularea se face în Google Play; dezinstalarea aplicației nu anulează abonamentul. În mod obișnuit, anularea oprește următoarea reînnoire, iar accesul continuă până la sfârșitul perioadei achitate, cât timp achiziția este validă. Rambursările și drepturile legale aplicabile sunt tratate conform regulilor Google Play și legislației aplicabile; acest text nu exclude drepturi obligatorii. Restaurarea verifică achizițiile contului Google Play relevant; o tranzacție în așteptare nu acordă anticipat acces."
+      ],
+      [
+        "Expirare, date existente și verificări",
+        "La expirarea Pro, acesta nu se transformă în Personal. O achiziție Personal separată rămâne independentă. Fără un drept de export valabil, contractele noi revin la previzualizare protejată. Arhivele și documentele existente nu se șterg automat și pot fi recuperate ori șterse; funcțiile Pro noi necesită drept activ. OCR-ul și pregătirea PDF se fac local, dar achizițiile, restaurarea, verificările periodice ale drepturilor și Drive necesită rețea. Accesul offline cu plată este verificat și limitat; nu este promisă activare permanentă fără verificarea unei achiziții valide."
+      ],
+      [
+        "Limitele licenței și achiziții existente",
+        "Licența nu permite revânzarea aplicației sau comercializarea șabloanelor ca produse independente. Dreptul Pro de utilizare comercială privește serviciile prestate prin aplicație și nu constituie o autorizare profesională din partea unei autorități. Pentru achizițiile existente rămân condițiile aplicabile la cumpărare; prezentarea acestor termeni nu retrage retroactiv drepturi cumpărate anterior."
+      ],
+      [
+        "Verificarea și folosirea datelor",
+        "OCR-ul poate greși. Utilizatorul compară datele cu actele, confirmă identificatorii și are responsabilitatea folosirii și păstrării adecvate a documentelor. Informarea privind datele personale este separată de acceptarea licenței. Arhivarea, păstrarea fotografiilor și Drive se aleg separat. Aceste pagini nu promit conformitate GDPR garantată sau validitate juridică universală."
+      ],
+      [
+        "Testare, disponibilitate și contact",
+        "În etapa Closed Testing instalarea depinde de autorizarea contului Google și participarea la programul de testare. Linkul Google Play nu înseamnă disponibilitate publică în Production. Instrumentele fictive de plată ale conturilor License Testing și perioadele lor accelerate nu sunt abonamente comerciale gratuite pentru orice utilizator. Pentru suport: Selberg, selberg90@gmail.com. Modificările viitoare ale condițiilor se prezintă înainte de a fi aplicate unei achiziții, după caz."
+      ]
+    ],
+    "en": [
+      [
+        "Application and documents",
+        "AutoContract, publicly provided under the name Selberg, is a completion and generation tool, not a public authority or legal-advice service. Romanian contracts use the ITL 054 model. Templates for the 11 foreign countries are private, unofficial templates, not certified official forms. Users check data, translations and transaction requirements before use; acceptance by authorities is not guaranteed."
+      ],
+      [
+        "Free access and export",
+        "Installation, local OCR, completion and contract previews are free. Without a valid export entitlement, previews carry a red SPECIMEN – FĂRĂ VALOARE JURIDICĂ watermark (specimen — not legally valid) and capture protections where Android supports them. Saving, printing or sharing a clean final contract requires valid Personal or Pro access. Data-processing notices/evidence documents have a separate workflow and are not presented as paid final contracts."
+      ],
+      [
+        "AutoContract Personal",
+        "Reference price: RON 99.99, paid once through Google Play. Personal is a non-recurring purchase allowing unlimited Romanian/international contract generation and saving, printing or sharing clean PDFs. It is for personal, non-commercial use and does not permit charging third parties for contract preparation, generation or supply. It does not include an in-app archive, client/vehicle database or Google Drive for new sessions. Users may explicitly save PDFs to their chosen destination."
+      ],
+      [
+        "AutoContract Pro / Professional",
+        "Reference prices: RON 49.99/month or RON 399.99/year through Google Play. While Pro entitlement is valid, it allows contract generation for personal and commercial use, including charging clients for completion, generation, printing and supply services. It includes the local archive, saved client/vehicle profiles, information reuse and optional Drive. Pro can be purchased directly without Personal. Selecting a company buyer in an international contract is not exclusive to Pro; permission to provide commercial services is a separate issue."
+      ],
+      [
+        "Payment, renewal, cancellation and restoration",
+        "No payments are taken on this website. Final price, currency, taxes, period and conditions are shown by Google Play before confirmation. Auto-renewing subscriptions renew under the conditions accepted there until cancelled. Manage/cancel them in Google Play; uninstalling the app does not cancel a subscription. Cancellation ordinarily stops the next renewal and access continues until the paid period ends while the purchase remains valid. Refunds and applicable statutory rights follow Google Play rules and applicable law; this text does not exclude mandatory rights. Restoration checks purchases for the relevant Google Play account; pending transactions do not grant access in advance."
+      ],
+      [
+        "Expiry, existing data and entitlement checks",
+        "Expired Pro does not turn into Personal. A separately purchased Personal entitlement remains independent. Without valid export rights, new contracts return to protected preview. Existing archives/documents are not automatically deleted and remain recoverable or deletable; new Pro operations require active entitlement. OCR/PDF preparation run locally, while purchases, restoration, periodic entitlement checks and Drive require network access. Paid offline access is checked and limited; permanent activation without verification of a valid purchase is not promised."
+      ],
+      [
+        "Licence limits and existing purchases",
+        "The licence does not permit reselling the app or selling its templates as standalone products. Pro commercial use covers services delivered with the app and is not a professional authorisation issued by any authority. Existing purchases retain the conditions applicable when purchased; these terms do not retroactively remove previously purchased rights."
+      ],
+      [
+        "Checking and handling data",
+        "OCR may make mistakes. Users compare information with the source documents, confirm identifiers and are responsible for appropriate use and retention. Personal-data notices are separate from licence acceptance. Archiving, retaining photographs and Drive are separate choices. These pages do not guarantee GDPR compliance or universal legal validity."
+      ],
+      [
+        "Testing, availability and contact",
+        "During Closed Testing, installation depends on Google-account authorisation and joining the testing programme. A Google Play link does not imply public Production availability. License Testing payment instruments and accelerated periods are not free commercial subscriptions for every user. Support: Selberg, selberg90@gmail.com. Future condition changes are presented before applying to a purchase where applicable."
+      ]
+    ]
+  }
+}

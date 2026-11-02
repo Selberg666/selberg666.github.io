@@ -1,2 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /src/
+Disallow: /tools/
+
+Sitemap: https://autocontract.myprintx.com/sitemap.xml

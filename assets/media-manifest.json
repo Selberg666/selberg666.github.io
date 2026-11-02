@@ -1,0 +1,133 @@
+{
+  "createdUtc": "2026-11-02T18:04:30.547480+00:00",
+  "promo": {
+    "kind": "user-supplied promotional graphic, distinct from the authentic app screenshots",
+    "sourceFileName": "a_wide_promotional_banner_app_store_screenshots.png",
+    "sourceSha256": "8e67b51854c57332e488da2ca5021de9828cb455ba951035af33b85154433f8d",
+    "crop": false,
+    "files": [
+      {
+        "path": "assets/promo-1795.webp",
+        "width": 1795,
+        "height": 876,
+        "bytes": 240190,
+        "sha256": "a85f02d7dc39efcd508d4722d44bbd35f52920191604f15372d38f051f5ae783"
+      },
+      {
+        "path": "assets/promo-1280.webp",
+        "width": 1280,
+        "height": 625,
+        "bytes": 148748,
+        "sha256": "6c055d260c48c3d719e7971a7bf75fbb2d62e48cb3bb2928873b60e217d5a6c0"
+      },
+      {
+        "path": "assets/promo-768.webp",
+        "width": 768,
+        "height": 375,
+        "bytes": 70536,
+        "sha256": "5d0cda76620dc1d0d5bc209b492f9b03f7a15daf23ddd75b52f8b2584171cceb"
+      }
+    ],
+    "sourceWidth": 1795,
+    "sourceHeight": 876
+  },
+  "screenshots": {
+    "kind": "authentic Android Studio emulator screenshots",
+    "app": {
+      "package": "ro.myprintx.autocontract",
+      "versionName": "1.20.5",
+      "versionCode": 73,
+      "build": "nondebuggable Release payload, emulator-compatible signing",
+      "debuggable": false,
+      "testOnly": false,
+      "shippingPayloadIdenticalExcludingSigningMetadata": true,
+      "payloadEntriesVerified": 514
+    },
+    "locale": "ro",
+    "device": "Android Studio sdk_gphone64_x86_64 emulator, 1080x2400",
+    "retouching": "none; only proportional resize and WebP encoding",
+    "files": [
+      {
+        "path": "assets/screens/home-ro.webp",
+        "label": "Home in Romanian",
+        "sourceWidth": 1080,
+        "sourceHeight": 2400,
+        "sourceSha256": "735267ef908286cc02535347ea63b0723650fd90eb7e8bf833b03e413f29c589",
+        "width": 720,
+        "height": 1600,
+        "bytes": 55334,
+        "sha256": "e5f17b409cea780ec771f431514940b5aa5bca76910e5b279bb18ce8d8642463",
+        "privacyReviewed": true
+      },
+      {
+        "path": "assets/screens/international-ro.webp",
+        "label": "International contract setup in Romanian",
+        "sourceWidth": 1080,
+        "sourceHeight": 2400,
+        "sourceSha256": "e1ea579703a007416dc61683d687bc1d861db2cedc32db035e5f8c88b57460a7",
+        "width": 720,
+        "height": 1600,
+        "bytes": 76998,
+        "sha256": "f5b1249860fdf499f3edaabab48f9639277d4cf00b5ea65c32aae976e7911c4b",
+        "privacyReviewed": true
+      },
+      {
+        "path": "assets/screens/countries-ro.webp",
+        "label": "International country and language selector in Romanian",
+        "sourceWidth": 1080,
+        "sourceHeight": 2400,
+        "sourceSha256": "34a78730d3310fb3dbd1fe758c843a17b9cd58f2a1ec2c1f1c23166937eccd40",
+        "width": 720,
+        "height": 1600,
+        "bytes": 71218,
+        "sha256": "08a5c63952ddbfff0327d59cb6241d59dcbb596c0aebeccffa64a5521e827853",
+        "privacyReviewed": true
+      }
+    ],
+    "notPublished": {
+      "plans": "The emulator could not complete Google Play product verification. No price or entitlement screen was altered; that capture remains private."
+    }
+  },
+  "icons": [
+    {
+      "path": "assets/favicon-32.png",
+      "width": 32,
+      "height": 32,
+      "bytes": 2328,
+      "sha256": "be5175dbef0777157165cbe81b67981ef0fb3b733609ab00b9a3efc23c4e9d2f"
+    },
+    {
+      "path": "assets/favicon-180.png",
+      "width": 180,
+      "height": 180,
+      "bytes": 41371,
+      "sha256": "9b2c726ff7e3b63934c5ce0eb1e9096383a0d97be8dc7c15b1f3e623734e3213"
+    },
+    {
+      "path": "assets/favicon-192.png",
+      "width": 192,
+      "height": 192,
+      "bytes": 45996,
+      "sha256": "1de5e5ca8b1d0d5f4502c768d84a32fa5b90d9612bcd2d551a73b1b20f8f9aaf"
+    },
+    {
+      "path": "assets/favicon.ico",
+      "sizes": [
+        [
+          16,
+          16
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          48,
+          48
+        ]
+      ],
+      "bytes": 7729,
+      "sha256": "076f59cfbeb2a6d3fbc12f17f0fcbd7db8f8da8130b8c1641efa384cc95f7751"
+    }
+  ]
+}
