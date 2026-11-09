@@ -5,7 +5,7 @@ Static bilingual website served by GitHub Pages at https://autocontract.myprintx
 ## Source and generation
 
 - `src/home.template.html` and `src/home-content.json`: one homepage template with Romanian/English content.
-- `src/legal-content.json`: Romanian/English privacy policy and terms, approved by the owner on 2 November 2026. Material legal changes require the owner's approval before publication.
+- `src/legal-content.json`: approved privacy policy and historical licence terms from 2 November 2026. The current Terms of Service in both languages are rendered from `src/terms-content.json`. Material legal changes require the owner's approval before publication.
 - `assets/site.css` / `site.js`: responsive homepage and local language preference. `assets/legal.css` / `legal-language.js`: readable legal pages using the same preference key.
 - `assets/promo-*.webp`: proportionally resized user-supplied promotional banner, explicitly labelled illustrative; it is not a current app screenshot.
 - `assets/screens/`: authentic, privacy-reviewed emulator screenshots of version 1.20.5 (73). No licence state was fabricated. Images were only resized/encoded.
@@ -24,7 +24,7 @@ For local preview: `python -m http.server 8765 --bind 127.0.0.1` from the reposi
 
 Existing Pages configuration: `main`, repository root `/`, HTTPS enforced. The current deployment is the Pages build triggered by pushing to `main`. Preserve `CNAME`, `.nojekyll`, `logo.png` and `google95c7b1d2d13a0fc0.html`; do not change DNS while updating content.
 
-The original `/index.html` and `/confidentialitate.html` addresses remain functional. English lives under `/en/`. The former GitHub Pages privacy URL follows GitHub's existing custom-domain redirect.
+The original `/index.html` and `/confidentialitate.html` addresses remain functional. English lives under `/en/`. The two canonical terms URLs are `/termeni.html` (Romanian) and `/en/termeni.html` (English). Direct links retain their language, with an explicit RO / EN switch on each page. The former GitHub Pages privacy URL follows GitHub's existing custom-domain redirect.
 
 The website does not collect payments or identity documents and has no analytics or remote-font dependencies. It only stores the selected language in browser localStorage. Google Play installation links are for authorised Closed Testing accounts; they do not claim Production availability. Reference RON prices must match Google Play before future publication; the in-app Play price is authoritative.
 

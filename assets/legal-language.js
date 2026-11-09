@@ -5,7 +5,8 @@
   const explicit = new URLSearchParams(location.search).get('lang');
   let remembered;
   try { remembered = localStorage.getItem(key); } catch (_) { /* Storage may be unavailable. */ }
-  const preferred = ['ro', 'en'].includes(explicit) ? explicit : (['ro', 'en'].includes(remembered) ? remembered : current);
+  const fixedLanguage = document.documentElement.hasAttribute('data-fixed-language');
+  const preferred = fixedLanguage ? current : ['ro', 'en'].includes(explicit) ? explicit : (['ro', 'en'].includes(remembered) ? remembered : current);
   if (['ro', 'en'].includes(explicit)) {
     try { localStorage.setItem(key, explicit); } catch (_) { /* Navigation still works. */ }
   }

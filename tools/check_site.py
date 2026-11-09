@@ -63,6 +63,19 @@ def main():
             count += 1
     approved = hashlib.sha256((ROOT / "src/legal-content.json").read_bytes()).hexdigest()
     assert approved == "3fa3975f8406e62d185a16297f6533c274f258188e4f6821249ab8c926c3a725", "Legal text differs from owner-approved content"
+    terms = json.loads((ROOT / "src/terms-content.json").read_text(encoding="utf-8"))
+    for lang, name in (("ro", "termeni.html"), ("en", "en/termeni.html")):
+        nodes = parsed[name].nodes
+        html_tag = next(attrs for tag, attrs in nodes if tag == "html")
+        assert "data-fixed-language" in html_tag
+        assert len([1 for tag, attrs in nodes if tag == "section" and attrs.get("id", "").startswith("section-")]) == len(terms[lang])
+        assert len(terms[lang]) == len(terms["ro"])
+        assert ("time", {"datetime": terms["updated"]}) in nodes
+        for href in ("mailto:" + terms["provider"]["email"], "tel:" + terms["provider"]["phone"].replace(" ", "")):
+            assert any(tag == "a" and attrs.get("href") == href for tag, attrs in nodes)
+        for language, target in (("ro", "/termeni.html"), ("en", "/en/termeni.html")):
+            assert any(tag == "a" and attrs.get("href") == f"{target}?lang={language}"
+                       and attrs.get("hreflang") == language for tag, attrs in nodes)
     home = json.loads((ROOT / "src/home-content.json").read_text(encoding="utf-8"))
     def keys(value, path=""):
         if isinstance(value, dict):
@@ -77,7 +90,7 @@ def main():
     sitemap = ET.parse(ROOT / "sitemap.xml").getroot()
     assert len(sitemap) == 6
     assert "Sitemap: https://autocontract.myprintx.com/sitemap.xml" in (ROOT / "robots.txt").read_text()
-    print(json.dumps({"status": "passed", "pages": len(PAGES), "internalLinksAndAssetsChecked": count, "translationStructureMatches": True, "approvedLegalContentUnchanged": True, "sitemapUrls": len(sitemap), "domainAndVerificationPreserved": True}))
+    print(json.dumps({"status": "passed", "pages": len(PAGES), "internalLinksAndAssetsChecked": count, "translationStructureMatches": True, "approvedLegalContentUnchanged": True, "updatedTermsValidated": True, "sitemapUrls": len(sitemap), "domainAndVerificationPreserved": True}))
 
 
 if __name__ == "__main__":
