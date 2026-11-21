@@ -43,7 +43,7 @@ def render(lang: str, content: dict, template: Template) -> str:
         if isinstance(data, dict):
             values.update({f"{section}_{key}": e(value) for key, value in data.items() if isinstance(value, str)})
     prefix = "" if lang == "ro" else "/en"
-    width, height = dimensions(ROOT / "assets/promo-1795.webp", (1795, 876))
+    width, height = (1024, 500)  # Verified browser-rendered feature graphic dimensions.
     values.update({
         "lang": lang,
         "canonical": DOMAIN + ("/" if lang == "ro" else "/en/"),
@@ -68,12 +68,13 @@ def render(lang: str, content: dict, template: Template) -> str:
         screens.append(f'<figure class="screen-figure" data-reveal><div class="screen-stage"><img src="/assets/screens/{e(filename)}" alt="{e(alt)}" width="{sw}" height="{sh}" loading="lazy" decoding="async"></div><figcaption><h3>{e(title)}</h3><p>{e(caption)}</p></figcaption></figure>')
     values["screens_items"] = "".join(screens)
     plans = []
-    for key in ("free", "personal", "pro"):
+    for key in ("free", "single", "personal", "pro"):
         plan = content["pricing"][key]
         badge = f'<span class="plan-badge">{e(plan["badge"])}</span>' if plan.get("badge") else ""
         annual = f'<p class="annual-price">{e(plan["annual"])}</p>' if plan.get("annual") else '<div class="annual-spacer" aria-hidden="true"></div>'
         plans.append(f'<article class="price-plan plan-{key}" data-reveal>{badge}<p class="eyebrow">{e(plan["label"])}</p><h3>{e(plan["title"])}</h3><p class="price"><strong>{e(plan["amount"])}</strong><span>{e(plan["currency"])}</span></p><p class="price-period">{e(plan["period"])}</p>{annual}<ul class="feature-list">{feature_list(plan["items"])}</ul><p class="plan-limit">{e(plan["limit"])}</p><a class="button {"button-mint" if key == "pro" else "button-outline"}" href="#instalare">{e(plan["cta"])}<span aria-hidden="true">↗</span></a></article>')
     values["pricing_plans"] = "".join(plans)
+    values["new_items"] = "".join(f'<article data-reveal><span class="update-number">{e(number)}</span><h3>{e(title)}</h3><p>{e(text)}</p></article>' for number, title, text in content["new"]["items"])
     values["data_items"] = "".join(f'<article><span>{e(number)}</span><div><h3>{e(title)}</h3><p>{e(text)}</p></div></article>' for number, title, text in content["data"]["items"])
     values["faq_items"] = "".join(f'<details><summary>{e(question)}<span aria-hidden="true">+</span></summary><div><p>{e(answer)}</p></div></details>' for question, answer in content["faq"]["items"])
     result = template.substitute(values)

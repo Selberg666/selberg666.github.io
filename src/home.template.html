@@ -72,8 +72,7 @@
       <figure class="promo-figure">
         <div class="promo-image-wrap">
           <picture>
-            <source type="image/webp" srcset="/assets/promo-768.webp 768w, /assets/promo-1280.webp 1280w, /assets/promo-1795.webp 1795w" sizes="(max-width: 640px) calc(100vw - 36px), (max-width: 1328px) calc(100vw - 64px), 1264px">
-            <img src="/assets/promo-1795.webp" alt="$hero_promoAlt" width="$promo_width" height="$promo_height" fetchpriority="high" decoding="async">
+            <img src="$hero_image" alt="$hero_promoAlt" width="$promo_width" height="$promo_height" fetchpriority="high" decoding="async">
           </picture>
         </div>
         <figcaption><span class="caption-label">$hero_promoLabel</span><span>$hero_promoCaption</span></figcaption>
@@ -88,6 +87,11 @@
       </div>
       <div class="workflow-grid">$workflow_steps</div>
       <p class="info-note"><span aria-hidden="true">i</span>$workflow_note</p>
+    </section>
+
+    <section class="section shell updates-section" id="noutati" aria-labelledby="updates-title">
+      <div class="section-head"><div><p class="eyebrow">$new_eyebrow</p><h2 id="updates-title">$new_headline</h2></div><p class="section-intro">$new_intro</p></div>
+      <div class="updates-grid">$new_items</div>
     </section>
 
     <section class="contracts-section" id="contracte" aria-labelledby="contracts-title">

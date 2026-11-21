@@ -7,8 +7,8 @@ import json
 ROOT = Path(__file__).resolve().parents[1]
 DOMAIN = "https://autocontract.myprintx.com"
 LABELS = {
-    "ro": {"privacy": "Politica de confidențialitate", "terms": "Termeni și Condiții", "home": "Acasă", "privacyNav": "Confidențialitate", "termsNav": "Termeni", "skip": "Sari la conținut", "updated": "Actualizat: 2 noiembrie 2026", "contents": "Pe această pagină", "references": "Referințe și servicii externe", "navigation": "Navigare principală", "language": "Limba site-ului", "description": "AutoContract: OCR local, sesiuni temporare, arhivă Pro și Google Drive opțional, achiziții Google Play și condițiile licențelor Personal și Professional."},
-    "en": {"privacy": "Privacy policy", "terms": "Terms of Service", "home": "Home", "privacyNav": "Privacy", "termsNav": "Terms", "skip": "Skip to content", "updated": "Updated: 2 November 2026", "contents": "On this page", "references": "References and external services", "navigation": "Main navigation", "language": "Website language", "description": "AutoContract: local OCR, temporary sessions, Pro archive, optional Google Drive, Google Play purchases and Personal and Professional licence conditions."},
+    "ro": {"privacy": "Politica de confidențialitate", "terms": "Termeni și Condiții", "home": "Acasă", "privacyNav": "Confidențialitate", "termsNav": "Termeni", "skip": "Sari la conținut", "updated": "Actualizat: 21 noiembrie 2026", "contents": "Pe această pagină", "references": "Referințe și servicii externe", "navigation": "Navigare principală", "language": "Limba site-ului", "description": "AutoContract: OCR local, sesiuni temporare, arhivă Pro și Google Drive opțional, achiziții Google Play și condițiile licențelor Single, Personal și Professional."},
+    "en": {"privacy": "Privacy policy", "terms": "Terms of Service", "home": "Home", "privacyNav": "Privacy", "termsNav": "Terms", "skip": "Skip to content", "updated": "Updated: 21 November 2026", "contents": "On this page", "references": "References and external services", "navigation": "Main navigation", "language": "Website language", "description": "AutoContract: local OCR, temporary sessions, Pro archive, optional Google Drive, Google Play purchases and Single, Personal and Professional licence conditions."},
 }
 REFERENCES = [
     ("Google ML Kit", "https://developers.google.com/ml-kit/android-data-disclosure"),
@@ -72,7 +72,7 @@ def render(kind, filename, lang, sections, terms=None):
         contents += f'<li><a href="#references">{t["references"]}</a></li>'
     references = "".join(f'<li><a href="{url}">{name}<span aria-hidden="true"> ↗</span></a></li>'
                          for name, url in (TERMS_REFERENCES[lang] if terms else REFERENCES))
-    updated = terms_date(terms["updated"], lang) if terms else f'{t["updated"]} · 1.20.5 (73)'
+    updated = terms_date(terms["updated"], lang) if terms else f'{t["updated"]} · 1.23.0 (85)'
     fixed_language = ' data-fixed-language' if terms else ''
     description = t["description"]
     if terms:
@@ -108,7 +108,7 @@ def render(kind, filename, lang, sections, terms=None):
 </div></header>
 <main id="continut" class="wrap legal-layout">
 <aside><p class="eyebrow">AUTOCONTRACT</p>{contents_nav}</aside>
-<article><div class="legal-title"><p class="eyebrow">AUTOCONTRACT · PERSONAL / PROFESSIONAL</p><h1>{title}</h1><p class="updated">{updated}</p></div>{body}<section id="references"><h2>{t['references']}</h2><ul class="references">{references}</ul></section></article>
+<article><div class="legal-title"><p class="eyebrow">AUTOCONTRACT · SINGLE / PERSONAL / PROFESSIONAL</p><h1>{title}</h1><p class="updated">{updated}</p></div>{body}<section id="references"><h2>{t['references']}</h2><ul class="references">{references}</ul></section></article>
 </main><footer class="wrap"><span>© 2026 Selberg · AutoContract</span><a href="mailto:selberg90@gmail.com">selberg90@gmail.com</a></footer>
 </body></html>'''
 

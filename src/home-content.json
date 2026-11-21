@@ -2,30 +2,61 @@
   "ro": {
     "locale": "ro_RO",
     "title": "AutoContract — Contracte auto, de la acte la PDF",
-    "description": "Contracte auto ITL 054 și internaționale pentru 11 țări. OCR local, verificarea datelor și PDF-uri curate cu Personal sau Pro. Aplicație Android în testare închisă.",
+    "description": "Contracte auto România ITL 054 și 11 țări, OCR local, ghid gratuit pentru acte și export PDF prin Single, Personal sau Pro.",
     "skip": "Sari la conținut",
     "homeLabel": "AutoContract — Acasă",
     "navLabel": "Navigare principală",
     "languageLabel": "Limba site-ului",
     "menuLabel": "Deschide navigarea",
-    "nav": [["contracte", "Contracte"], ["cum-functioneaza", "Cum funcționează"], ["licente", "Licențe"], ["intrebari", "Întrebări"]],
+    "nav": [
+      [
+        "contracte",
+        "Contracte"
+      ],
+      [
+        "cum-functioneaza",
+        "Cum funcționează"
+      ],
+      [
+        "licente",
+        "Licențe"
+      ],
+      [
+        "intrebari",
+        "Întrebări"
+      ]
+    ],
     "headerCta": "Testează aplicația",
     "hero": {
       "eyebrow": "AUTOCONTRACT · ANDROID",
       "status": "În testare închisă",
       "headline": "Acte în ordine.",
       "accent": "Drum liber.",
-      "lead": "Contractul auto, într-un singur loc. De la citirea actelor și verificarea datelor la un PDF pregătit pentru tipărire și semnare.",
+      "lead": "Citești actele pe telefon, verifici datele și pregătești contractul pentru România sau una dintre cele 11 țări. Cu un ghid gratuit pentru actele de înmatriculare și accesul potrivit fiecărei tranzacții.",
       "primary": "Participă la testare",
       "secondary": "Descoperă funcțiile",
       "access": "Instalarea necesită un cont Google autorizat și înscrierea în programul de testare.",
       "sideLabel": "ROMÂNIA + 11 ȚĂRI",
       "sideTitle": "Un drum. Mai multe destinații.",
       "sideText": "Contracte românești și internaționale, în aceeași aplicație.",
-      "promoAlt": "Imagine promoțională AutoContract cu identitatea aplicației și exemple ilustrative de ecrane pentru contracte auto",
-      "promoLabel": "ILUSTRAȚIE PROMOȚIONALĂ",
-      "promoCaption": "Imaginea promoțională include exemple de interfață și texte din versiuni anterioare. Funcțiile actuale sunt descrise mai jos; capturile autentice sunt prezentate separat.",
-      "facts": [["OCR local", "Citirea documentelor pe dispozitiv"], ["RO + internațional", "ITL 054 și contracte pentru 11 țări"], ["Tu verifici", "Confirmi datele înainte de documentul final"]]
+      "promoAlt": "AutoContract 1.23.0: ecranul Acasă și ghidul gratuit pentru acte auto",
+      "promoLabel": "INTERFAȚA ACTUALĂ",
+      "promoCaption": "Prezentare cu ecrane reale AutoContract 1.23.0. Funcțiile de arhivare și Google Drive necesită Pro; documentul final se deblochează separat.",
+      "facts": [
+        [
+          "OCR local",
+          "Citirea documentelor pe dispozitiv"
+        ],
+        [
+          "RO + internațional",
+          "ITL 054 și contracte pentru 11 țări"
+        ],
+        [
+          "Tu verifici",
+          "Confirmi datele înainte de documentul final"
+        ]
+      ],
+      "image": "/assets/promo-current.jpg"
     },
     "workflow": {
       "eyebrow": "DE LA PRIMA FOTOGRAFIE LA ULTIMA VERIFICARE",
@@ -33,10 +64,26 @@
       "accent": "Tu păstrezi controlul.",
       "intro": "Începi gratuit, verifici informațiile și alegi o licență când ai nevoie de documentul final fără watermark.",
       "steps": [
-        ["01", "Adaugi documentele", "Fotografiezi actele sau imporți imagini și PDF-uri. Pentru o carte de identitate cu date pe verso, poți selecta împreună fotografiile față și verso."],
-        ["02", "Verifici datele", "Compari propunerile OCR cu documentele. CNP-ul și VIN-ul rămân informații pe care le confirmi manual."],
-        ["03", "Vezi previzualizarea", "Completezi detaliile tranzacției și verifici PDF-ul. În modul gratuit, previzualizarea are watermark roșu."],
-        ["04", "Pregătești documentul final", "Cu Personal sau Pro, salvezi PDF-ul curat, îl distribui ori îl trimiți la imprimare. Achiziția se face în aplicație, prin Google Play."]
+        [
+          "01",
+          "Adaugi documentele",
+          "Fotografiezi actele sau imporți imagini și PDF-uri. Pentru o carte de identitate cu date pe verso, poți selecta împreună fotografiile față și verso."
+        ],
+        [
+          "02",
+          "Verifici datele",
+          "Compari valoarea cu fragmentul din act și lupa, apoi aplici. Câmpurile de verificat sunt aduse în vedere; CNP-ul și VIN-ul se confirmă manual."
+        ],
+        [
+          "03",
+          "Vezi previzualizarea",
+          "Completezi detaliile tranzacției și verifici PDF-ul. În modul gratuit, previzualizarea are watermark roșu."
+        ],
+        [
+          "04",
+          "Pregătești documentul final",
+          "Apeși Deblochează contractul și alegi Single pentru un contract, Personal pentru uz propriu sau Pro pentru activitate comercială și organizare. Plata se face prin Google Play."
+        ]
       ],
       "note": "OCR-ul poate greși. Verificarea informațiilor rămâne necesară înainte de folosirea unui contract."
     },
@@ -48,57 +95,257 @@
       "romanianLabel": "CONTRACT ROMÂNIA",
       "romanianTitle": "Actele tale, în formularul ITL 054.",
       "romanianText": "Citești documentele de identitate și ale vehiculului, verifici datele și pregătești contractul românesc.",
-      "romanianItems": ["OCR local pentru documente CI, CIV și certificat de înmatriculare", "Completare manuală și corectarea propunerilor", "Previzualizare PDF și semnături opționale", "PDF curat, salvare, distribuire și printare cu licență"],
+      "romanianItems": [
+        "OCR local pentru CI, CIV și certificat de înmatriculare",
+        "Import simultan față/verso și verificare cu fragment din act",
+        "Completare manuală, corecturi și semnături opționale",
+        "Contractul și copiile documentelor în același PDF, la alegere"
+      ],
       "romanianFoot": "România · Formular ITL 054",
       "internationalLabel": "CONTRACT INTERNAȚIONAL",
       "internationalTitle": "Dincolo de granițe. Fără să reiei totul de la zero.",
       "internationalText": "Completezi manual un contract adaptat țării selectate, pentru un cumpărător persoană fizică sau firmă.",
-      "internationalItems": ["Română + limba țării sau numai limba străină", "Cumpărător persoană fizică ori companie", "PDF pregătit pentru tipărire și semnare fizică"],
+      "internationalItems": [
+        "Română + limba țării sau numai limba străină",
+        "Cumpărător persoană fizică ori companie",
+        "PDF pregătit pentru tipărire și semnare fizică"
+      ],
       "countriesLabel": "11 țări pentru contractele internaționale",
-      "countries": [["SE", "Suedia"], ["DE", "Germania"], ["AT", "Austria"], ["UK", "Regatul Unit"], ["NL", "Olanda"], ["BE", "Belgia"], ["FR", "Franța"], ["IT", "Italia"], ["HU", "Ungaria"], ["ES", "Spania"], ["PL", "Polonia"]],
+      "countries": [
+        [
+          "SE",
+          "Suedia"
+        ],
+        [
+          "DE",
+          "Germania"
+        ],
+        [
+          "AT",
+          "Austria"
+        ],
+        [
+          "UK",
+          "Regatul Unit"
+        ],
+        [
+          "NL",
+          "Olanda"
+        ],
+        [
+          "BE",
+          "Belgia"
+        ],
+        [
+          "FR",
+          "Franța"
+        ],
+        [
+          "IT",
+          "Italia"
+        ],
+        [
+          "HU",
+          "Ungaria"
+        ],
+        [
+          "ES",
+          "Spania"
+        ],
+        [
+          "PL",
+          "Polonia"
+        ]
+      ],
       "note": "Modelele internaționale sunt documente private, nu formulare oficiale certificate. Cerințele de folosire pot diferi de la o țară sau instituție la alta; acceptarea de către autorități nu este garantată."
     },
     "screens": {
       "eyebrow": "DIN APLICAȚIA ACTUALĂ",
       "headline": "Mai puține presupuneri.",
       "accent": "Mai mult de văzut.",
-      "intro": "Capturi autentice din emulator, cu date de test, pentru AutoContract 1.20.5 (73). Aspectul poate varia în funcție de dispozitiv și setări.",
-      "items": [["home-ro.webp", "Acasă", "Acces direct la contractul românesc și la cel internațional.", "Ecranul Acasă al AutoContract 1.20.5 în limba română"], ["international-ro.webp", "Contracte internaționale", "Țara și forma contractului, în fluxul de completare manuală.", "Ecranul de completare a unui contract internațional în AutoContract"], ["countries-ro.webp", "Alegi țara contractului", "Destinațiile internaționale, direct în aplicație.", "Selectorul de țări pentru contractele internaționale în AutoContract"]],
+      "intro": "Ecrane reale din AutoContract 1.23.0 (85), capturate în emulator. Formularele afișate folosesc numai date fictive sau câmpuri necompletate. Aspectul poate varia după dispozitiv și setări.",
+      "items": [
+        [
+          "01-home-ro.png",
+          "Acasă, totul la îndemână",
+          "Contract România, internațional, ghid și acces rapid.",
+          "Ecran Acasă AutoContract 1.23.0, în modul Trial"
+        ],
+        [
+          "05-ocr-ro.png",
+          "Actele, pas cu pas",
+          "Fotografiezi ori imporți; verifici separat fiecare parte.",
+          "Ghidul OCR AutoContract pentru actele vânzătorului"
+        ],
+        [
+          "03-international-ro.png",
+          "Contracte internaționale",
+          "Selectezi țara și completezi datele în patru pași.",
+          "Formularul internațional AutoContract cu Germania selectată"
+        ],
+        [
+          "02-guide-ro.png",
+          "Ghid gratuit pentru acte",
+          "Primărie, transcriere sau mașină adusă din străinătate.",
+          "Ghid gratuit AutoContract pentru actele de înmatriculare"
+        ],
+        [
+          "06-form-ro.png",
+          "Completare manuală clară",
+          "Datele sunt grupate pe vânzător, cumpărător și vehicul.",
+          "Formularul românesc AutoContract cu câmpuri fictive sau goale"
+        ],
+        [
+          "08-settings-ro.png",
+          "Personalizezi interfața",
+          "Limbă, aspect, confidențialitate și licențe, într-un singur loc.",
+          "Setările AutoContract în limba română"
+        ]
+      ],
       "languageNote": "Capturile prezintă interfața în română. Aplicația oferă și interfață în engleză."
     },
     "pricing": {
       "eyebrow": "ALEGI ACCESUL DE CARE AI NEVOIE",
       "headline": "Începi gratuit.",
       "accent": "Continui în ritmul tău.",
-      "intro": "Aceleași contracte românești și internaționale. Drepturi de utilizare și opțiuni de organizare diferite.",
-      "free": {"label": "GRATUIT", "title": "Vezi cum funcționează.", "amount": "0", "currency": "lei", "period": "Pentru completare și previzualizare", "items": ["OCR local și completare manuală", "Contracte românești și internaționale", "Previzualizare PDF cu watermark roșu"], "limit": "Contractul final fără watermark necesită Personal sau Pro.", "cta": "Începe în aplicație"},
-      "personal": {"label": "PERSONAL", "title": "Pentru contractele tale.", "amount": "99,99", "currency": "lei", "period": "Plată unică", "items": ["PDF-uri curate, nelimitate", "Contracte românești și internaționale", "Salvare, printare și distribuire", "Licență pentru utilizare necomercială"], "limit": "Fără arhivă internă, bază de date clienți/vehicule sau Google Drive.", "cta": "Alege Personal în aplicație"},
-      "pro": {"label": "PROFESSIONAL", "badge": "PENTRU ACTIVITATEA TA", "title": "Pentru un flux de lucru complet.", "amount": "49,99", "currency": "lei", "period": "/ lună", "annual": "sau 399,99 lei / an", "items": ["PDF-uri curate, nelimitate, pentru România și internațional", "Licență comercială, inclusiv servicii de întocmire a contractelor contra cost", "Arhivă locală și baza de date clienți/vehicule", "Reutilizarea datelor și Google Drive opțional"], "limit": "Nu necesită cumpărarea licenței Personal.", "cta": "Alege Pro în aplicație"},
+      "intro": "Începi cu OCR, completare și previzualizare gratuite. Pentru documentul final alegi o deblocare Single, Personal sau Pro.",
+      "free": {
+        "label": "GRATUIT",
+        "title": "Vezi cum funcționează.",
+        "amount": "0",
+        "currency": "lei",
+        "period": "Pentru completare și previzualizare",
+        "items": [
+          "OCR local și completare manuală",
+          "Contracte românești și internaționale",
+          "Previzualizare PDF cu watermark roșu"
+        ],
+        "limit": "Exportul PDF-ului final necesită Single, Personal sau Pro.",
+        "cta": "Începe în aplicație"
+      },
+      "personal": {
+        "label": "PERSONAL",
+        "title": "Pentru contractele tale.",
+        "amount": "149,99",
+        "currency": "lei",
+        "period": "Plată unică",
+        "items": [
+          "PDF-uri curate, nelimitate",
+          "Contracte românești și internaționale",
+          "Salvare, printare și distribuire",
+          "Licență pentru utilizare necomercială"
+        ],
+        "limit": "Fără arhivă internă, bază de date clienți/vehicule sau Google Drive.",
+        "cta": "Alege Personal în aplicație"
+      },
+      "pro": {
+        "label": "PROFESSIONAL",
+        "badge": "PENTRU ACTIVITATEA TA",
+        "title": "Pentru un flux de lucru complet.",
+        "amount": "49,99",
+        "currency": "lei",
+        "period": "/ lună",
+        "annual": "sau 399,99 lei / an",
+        "items": [
+          "PDF-uri curate, nelimitate, pentru România și internațional",
+          "Licență comercială, inclusiv servicii de întocmire a contractelor contra cost",
+          "Arhivă locală și baza de date clienți/vehicule",
+          "Reutilizarea datelor și Google Drive opțional"
+        ],
+        "limit": "Nu necesită cumpărarea licenței Personal.",
+        "cta": "Alege Pro în aplicație"
+      },
       "billingLabel": "ACHIZIȚII PRIN GOOGLE PLAY",
       "billing": "Plățile sunt realizate exclusiv în aplicație, prin Google Play Billing. Prețul final, moneda și eventualele taxe sunt afișate de Google Play și pot varia în funcție de țară și cont.",
-      "expiry": "Pro oferă funcțiile comerciale și de arhivare cât timp abonamentul este valid. La expirare, arhiva existentă nu este ștearsă; recuperarea și ștergerea datelor rămân posibile. O licență Personal cumpărată separat rămâne activă."
+      "expiry": "Pro oferă funcțiile comerciale și de arhivare cât timp abonamentul este valid. La expirare, arhiva existentă nu este ștearsă; recuperarea și ștergerea datelor rămân posibile. O licență Personal cumpărată separat rămâne activă.",
+      "single": {
+        "label": "SINGLE",
+        "title": "Un singur contract.",
+        "amount": "39,99",
+        "currency": "lei",
+        "period": "Plată unică / contract",
+        "items": [
+          "Un contract România sau internațional",
+          "Salvare, printare și distribuire",
+          "Corectarea și regenerarea aceluiași contract",
+          "Ciorna de lucru, păstrată în instalarea curentă"
+        ],
+        "limit": "Fără arhivă sau Drive. Dezinstalarea ori ștergerea datelor elimină editarea Single; PDF-urile salvate separat rămân.",
+        "cta": "Alege Single la previzualizare"
+      }
     },
     "data": {
       "eyebrow": "DOCUMENTE PERSONALE. ALEGERI CLARE.",
       "headline": "Datele tale.",
       "accent": "Traseul ales de tine.",
       "intro": "Citirea actelor și generarea PDF-urilor sunt locale. Organizarea pe termen lung și conectarea Google Drive sunt opțiuni distincte ale planului Pro.",
-      "items": [["01", "OCR pe dispozitiv", "Documentele sunt procesate local pentru extragerea datelor. Propunerile se verifică înainte de folosire."], ["02", "Personal, fără arhivă internă", "Lucrezi cu previzualizări temporare și păstrezi documentele pe care le salvezi explicit în locația aleasă."], ["03", "Pro, cu organizare opțională în Drive", "Arhivezi local, reutilizezi date și conectezi propriul Google Drive dacă alegi această opțiune."]],
+      "items": [
+        [
+          "01",
+          "OCR pe dispozitiv",
+          "Documentele sunt procesate local pentru extragerea datelor. Propunerile se verifică înainte de folosire."
+        ],
+        [
+          "02",
+          "Personal, fără arhivă internă",
+          "Lucrezi cu previzualizări temporare și păstrezi documentele pe care le salvezi explicit în locația aleasă."
+        ],
+        [
+          "03",
+          "Pro, cu organizare opțională în Drive",
+          "Arhivezi local, reutilizezi date și conectezi propriul Google Drive dacă alegi această opțiune."
+        ]
+      ],
       "link": "Citește politica de confidențialitate"
     },
     "faq": {
       "eyebrow": "BINE DE ȘTIUT",
       "headline": "Întrebări, înainte de primul contract.",
       "items": [
-        ["Pot instala AutoContract chiar acum?", "Aplicația este în Closed Testing. Ai nevoie de un cont Google autorizat pentru testare și de înscrierea în program. Folosește același cont pentru înscriere și instalare. Dacă nu ai acces, contactează dezvoltatorul."],
-        ["Ce pot face gratuit?", "Poți citi acte prin OCR, completa manual datele și vedea previzualizarea contractelor românești și internaționale. Previzualizarea gratuită are watermark roșu. Salvarea, distribuirea și printarea documentului final fără watermark necesită Personal sau Pro."],
-        ["Funcționează fără internet?", "OCR-ul și generarea PDF-urilor sunt locale. Internetul este necesar pentru achiziții, restaurarea și verificarea licențelor prin Google Play, precum și pentru funcțiile Google Drive."],
-        ["Trebuie să verific datele citite automat?", "Da. OCR-ul poate greși. Compară informațiile cu actele originale, corectează propunerile și confirmă manual CNP-ul și VIN-ul. Aplicația nu înlocuiește verificarea documentelor și a condițiilor tranzacției."],
-        ["Pot importa fața și verso-ul cărții de identitate împreună?", "Da. Pentru cărțile de identitate cu informații pe ambele fețe, poți selecta împreună cele două fotografii din telefon în fluxul de import. Datele extrase rămân de verificat."],
-        ["Pot întocmi contracte contra cost cu Personal?", "Personal este o licență de utilizare necomercială. Pentru activitate comercială, inclusiv servicii plătite de întocmire a contractelor, este necesar un abonament Pro valid."],
-        ["Trebuie să cumpăr Personal înainte de Pro?", "Nu. Abonamentul Pro oferă independent funcțiile sale. Dacă ai cumpărat și Personal, acea licență rămâne activă după expirarea Pro, cu drepturile și limitele planului Personal."],
-        ["Se șterge arhiva când expiră Pro?", "Nu. Expirarea nu șterge arhiva existentă. Accesul revine la drepturile licențelor valide; aplicația păstrează posibilitatea de recuperare și ștergere a datelor existente."],
-        ["Contractele internaționale sunt formulare oficiale?", "Sunt modele private adaptate țării selectate, cu completare manuală. Nu sunt prezentate ca formulare oficiale certificate și nu au acceptare garantată de către autorități. Verifică cerințele aplicabile tranzacției și țării în care folosești documentul."]
+        [
+          "Pot instala AutoContract chiar acum?",
+          "Aplicația este în Closed Testing. Ai nevoie de un cont Google autorizat pentru testare și de înscrierea în program. Folosește același cont pentru înscriere și instalare. Dacă nu ai acces, contactează dezvoltatorul."
+        ],
+        [
+          "Ce pot face gratuit?",
+          "OCR-ul local, completarea manuală, verificarea datelor, previzualizarea SPECIMEN și ghidul pentru acte auto sunt gratuite. Exportul contractului final fără marcaj necesită Single, Personal sau Pro."
+        ],
+        [
+          "Ce deblochează Single?",
+          "Single permite exportul și corectarea aceluiași contract în instalarea curentă. O altă parte, un alt vehicul sau un alt formular pot necesita o deblocare nouă. Nu include arhivă ori Drive. Dezinstalarea sau ștergerea datelor elimină editabilitatea locală; PDF-urile deja salvate separat rămân."
+        ],
+        [
+          "Ghidul pentru acte înlocuiește cerințele autorităților?",
+          "Nu. Ghidul este informativ și te ajută să pregătești o listă de documente. Cerințele pot varia după situație și instituție. Unele formulare pot fi oferite la ghișeu; confirmă lista curentă la autoritatea competentă."
+        ],
+        [
+          "Funcționează fără internet?",
+          "OCR-ul și generarea PDF-urilor sunt locale. Internetul este necesar pentru achiziții, restaurarea și verificarea licențelor prin Google Play, precum și pentru funcțiile Google Drive."
+        ],
+        [
+          "Trebuie să verific datele citite automat?",
+          "Da. OCR-ul poate greși. Compară informațiile cu actele originale, corectează propunerile și confirmă manual CNP-ul și VIN-ul. Aplicația nu înlocuiește verificarea documentelor și a condițiilor tranzacției."
+        ],
+        [
+          "Pot importa fața și verso-ul cărții de identitate împreună?",
+          "Da. Pentru cărțile de identitate cu informații pe ambele fețe, poți selecta împreună cele două fotografii din telefon în fluxul de import. Datele extrase rămân de verificat."
+        ],
+        [
+          "Pot întocmi contracte contra cost cu Personal?",
+          "Personal este o licență de utilizare necomercială. Pentru activitate comercială, inclusiv servicii plătite de întocmire a contractelor, este necesar un abonament Pro valid."
+        ],
+        [
+          "Trebuie să cumpăr Personal înainte de Pro?",
+          "Nu. Abonamentul Pro oferă independent funcțiile sale. Dacă ai cumpărat și Personal, acea licență rămâne activă după expirarea Pro, cu drepturile și limitele planului Personal."
+        ],
+        [
+          "Se șterge arhiva când expiră Pro?",
+          "Nu. Expirarea nu șterge arhiva existentă. Accesul revine la drepturile licențelor valide; aplicația păstrează posibilitatea de recuperare și ștergere a datelor existente."
+        ],
+        [
+          "Contractele internaționale sunt formulare oficiale?",
+          "Sunt modele private adaptate țării selectate, cu completare manuală. Nu sunt prezentate ca formulare oficiale certificate și nu au acceptare garantată de către autorități. Verifică cerințele aplicabile tranzacției și țării în care folosești documentul."
+        ]
       ]
     },
     "download": {
@@ -116,38 +363,106 @@
       "privacy": "Confidențialitate",
       "terms": "Termeni de utilizare",
       "contact": "Contact",
-      "version": "Prezentare actualizată pentru 1.20.5 (73)",
+      "version": "Prezentare actualizată pentru 1.23.0 (85)",
       "copyright": "© 2026 Selberg · AutoContract",
       "back": "Înapoi sus"
+    },
+    "new": {
+      "eyebrow": "MAI CLAR, DE LA PRIMUL PAS",
+      "headline": "Mai mult decât un formular.",
+      "intro": "Noutățile care te ajută să pregătești, să verifici și să păstrezi documentele în ritmul tău.",
+      "items": [
+        [
+          "01",
+          "Ghid gratuit pentru acte auto",
+          "Alegi situația vehiculului și vezi o listă orientativă pentru Primărie, RAR și înmatriculare. Verifică cerințele autorității competente."
+        ],
+        [
+          "02",
+          "Față și verso, împreună",
+          "Selectezi ambele fotografii ale cărții de identitate în același import, fără să reiei fluxul."
+        ],
+        [
+          "03",
+          "Valoarea și actul, în aceeași privire",
+          "Câmpul de corectat, fragmentul, lupa și aplicarea sunt aduse în vedere, inclusiv când apare tastatura."
+        ],
+        [
+          "04",
+          "Contractul și copiile în același PDF",
+          "Alegi ce documente pregătești pentru dosar; verifici conținutul înainte de salvare sau distribuire."
+        ],
+        [
+          "05",
+          "Continui sau renunți la o ciornă",
+          "Reiei contractele în lucru ori elimini o ciornă abandonată, fără să ștergi PDF-urile salvate separat."
+        ],
+        [
+          "06",
+          "Interfață în română și engleză",
+          "Pași vizibili, buton de continuare și opțiuni de aspect. Funcțiile Pro păstrează organizarea în arhivă și Drive."
+        ]
+      ]
     }
   },
   "en": {
     "locale": "en_GB",
     "title": "AutoContract — Vehicle sale contracts, from documents to PDF",
-    "description": "Romanian ITL 054 and international vehicle sale contracts for 11 countries. On-device OCR, data review and clean PDFs with Personal or Pro. Android closed testing.",
+    "description": "Romanian ITL 054 and 11-country vehicle agreements, on-device OCR, a free registration checklist and PDF export with Single, Personal or Pro.",
     "skip": "Skip to content",
     "homeLabel": "AutoContract — Home",
     "navLabel": "Main navigation",
     "languageLabel": "Website language",
     "menuLabel": "Open navigation",
-    "nav": [["contracte", "Contracts"], ["cum-functioneaza", "How it works"], ["licente", "Plans"], ["intrebari", "Questions"]],
+    "nav": [
+      [
+        "contracte",
+        "Contracts"
+      ],
+      [
+        "cum-functioneaza",
+        "How it works"
+      ],
+      [
+        "licente",
+        "Plans"
+      ],
+      [
+        "intrebari",
+        "Questions"
+      ]
+    ],
     "headerCta": "Try the app",
     "hero": {
       "eyebrow": "AUTOCONTRACT · ANDROID",
       "status": "In closed testing",
       "headline": "Paperwork in order.",
       "accent": "The road ahead.",
-      "lead": "Your vehicle sale contract, in one place. Read the documents, check the details and prepare a PDF ready to print and sign.",
+      "lead": "Read documents on your phone, review the details and prepare an agreement for Romania or one of 11 countries. With a free Romanian registration checklist and access that fits your needs.",
       "primary": "Join the test programme",
       "secondary": "Explore the features",
       "access": "Installation requires an authorised Google account and enrolment in the testing programme.",
       "sideLabel": "ROMANIA + 11 COUNTRIES",
       "sideTitle": "One journey. More destinations.",
       "sideText": "Romanian and international contracts, in the same app.",
-      "promoAlt": "AutoContract promotional image featuring the app identity and illustrative vehicle sale contract screens",
-      "promoLabel": "PROMOTIONAL ILLUSTRATION",
-      "promoCaption": "The promotional image includes illustrative screens and wording from earlier versions. Current features are explained below, with genuine app screenshots in a separate section.",
-      "facts": [["On-device OCR", "Document reading on your device"], ["Romania + international", "ITL 054 and contracts for 11 countries"], ["You review", "Confirm the details before the final document"]]
+      "promoAlt": "AutoContract 1.23.0: Home and the free vehicle registration checklist",
+      "promoLabel": "CURRENT APP INTERFACE",
+      "promoCaption": "A presentation using real AutoContract 1.23.0 screens. Archive and Google Drive features require Pro; final documents require paid access.",
+      "facts": [
+        [
+          "On-device OCR",
+          "Document reading on your device"
+        ],
+        [
+          "Romania + international",
+          "ITL 054 and contracts for 11 countries"
+        ],
+        [
+          "You review",
+          "Confirm the details before the final document"
+        ]
+      ],
+      "image": "/assets/promo-current-en.jpg"
     },
     "workflow": {
       "eyebrow": "FROM THE FIRST PHOTO TO THE FINAL CHECK",
@@ -155,10 +470,26 @@
       "accent": "You stay in control.",
       "intro": "Start for free, review the details and choose a plan when you need the final document without a watermark.",
       "steps": [
-        ["01", "Add the documents", "Take photos or import images and PDFs. For an identity card with details on the back, you can select the front and back photos together."],
-        ["02", "Check the details", "Compare OCR suggestions with the documents. Personal identification numbers and the VIN still require your manual confirmation."],
-        ["03", "Review the preview", "Complete the transaction details and check the PDF. The free preview carries a red watermark."],
-        ["04", "Prepare the final document", "With Personal or Pro, save the clean PDF, share it or send it to a printer. Purchases take place in the app through Google Play."]
+        [
+          "01",
+          "Add the documents",
+          "Take photos or import images and PDFs. For an identity card with details on the back, you can select the front and back photos together."
+        ],
+        [
+          "02",
+          "Check the details",
+          "Compare each value with its document crop and magnifier, then apply it. Fields needing review are brought into view; CNP and VIN require manual confirmation."
+        ],
+        [
+          "03",
+          "Review the preview",
+          "Complete the transaction details and check the PDF. The free preview carries a red watermark."
+        ],
+        [
+          "04",
+          "Prepare the final document",
+          "Tap Unlock contract and choose Single for one agreement, Personal for your own use, or Pro for commercial use and organisation. Payment is handled by Google Play."
+        ]
       ],
       "note": "OCR can make mistakes. Check the information before using a contract."
     },
@@ -170,57 +501,257 @@
       "romanianLabel": "ROMANIAN CONTRACT",
       "romanianTitle": "Your details, in the ITL 054 form.",
       "romanianText": "Read identity and vehicle documents, check the details and prepare the Romanian vehicle sale contract.",
-      "romanianItems": ["On-device OCR for identity cards, vehicle identity documents and registration certificates", "Manual entry and correction of suggestions", "PDF preview and optional handwritten signatures", "Clean PDFs, saving, sharing and printing with a paid plan"],
+      "romanianItems": [
+        "On-device OCR for identity and vehicle documents",
+        "Import front/back together; compare results with the document crop",
+        "Manual entry, corrections and optional drawn signatures",
+        "Combine the agreement and document copies in one PDF, if selected"
+      ],
       "romanianFoot": "Romania · ITL 054 form",
       "internationalLabel": "INTERNATIONAL CONTRACT",
       "internationalTitle": "Across borders. Without starting from scratch.",
       "internationalText": "Manually complete a contract adapted to the selected country, with an individual or a company as the buyer.",
-      "internationalItems": ["Romanian + the country's language, or the foreign language only", "Individual or company buyer", "PDF ready for printing and physical signatures"],
+      "internationalItems": [
+        "Romanian + the country's language, or the foreign language only",
+        "Individual or company buyer",
+        "PDF ready for printing and physical signatures"
+      ],
       "countriesLabel": "11 countries for international contracts",
-      "countries": [["SE", "Sweden"], ["DE", "Germany"], ["AT", "Austria"], ["UK", "United Kingdom"], ["NL", "Netherlands"], ["BE", "Belgium"], ["FR", "France"], ["IT", "Italy"], ["HU", "Hungary"], ["ES", "Spain"], ["PL", "Poland"]],
+      "countries": [
+        [
+          "SE",
+          "Sweden"
+        ],
+        [
+          "DE",
+          "Germany"
+        ],
+        [
+          "AT",
+          "Austria"
+        ],
+        [
+          "UK",
+          "United Kingdom"
+        ],
+        [
+          "NL",
+          "Netherlands"
+        ],
+        [
+          "BE",
+          "Belgium"
+        ],
+        [
+          "FR",
+          "France"
+        ],
+        [
+          "IT",
+          "Italy"
+        ],
+        [
+          "HU",
+          "Hungary"
+        ],
+        [
+          "ES",
+          "Spain"
+        ],
+        [
+          "PL",
+          "Poland"
+        ]
+      ],
       "note": "The international templates are private documents, not certified official forms. Requirements may differ by country and institution; acceptance by authorities is not guaranteed."
     },
     "screens": {
       "eyebrow": "FROM THE CURRENT APP",
       "headline": "Less guesswork.",
       "accent": "More to see.",
-      "intro": "Genuine emulator screenshots with test data from AutoContract 1.20.5 (73). Appearance may vary with your device and settings.",
-      "items": [["home-ro.webp", "Home", "Direct access to Romanian and international contracts.", "AutoContract 1.20.5 home screen in Romanian"], ["international-ro.webp", "International contracts", "Choose the country and contract format in the manual entry process.", "AutoContract international contract entry screen in Romanian"], ["countries-ro.webp", "Choose the contract's country", "International destinations, directly in the app.", "AutoContract country selector for international contracts in Romanian"]],
-      "languageNote": "These screenshots show the Romanian interface. An English interface is also available in the app."
+      "intro": "Real AutoContract 1.23.0 (85) screens captured in an emulator. Forms use fictional data or empty fields only. Appearance may vary by device and settings.",
+      "items": [
+        [
+          "01-home-en.png",
+          "Everything within reach",
+          "Romanian and international contracts, the guide and quick access.",
+          "AutoContract 1.23.0 Home screen in Trial mode"
+        ],
+        [
+          "05-ocr-ro.png",
+          "Document entry, step by step",
+          "Capture or import documents, then review each party separately.",
+          "AutoContract guided OCR entry for seller documents"
+        ],
+        [
+          "03-international-en.png",
+          "International agreements",
+          "Choose the country and enter the details in four steps.",
+          "AutoContract international form with Germany selected"
+        ],
+        [
+          "02-guide-en.png",
+          "Free paperwork checklist",
+          "Local taxes, ownership transfer or a vehicle imported into Romania.",
+          "AutoContract free Romanian vehicle registration checklist"
+        ],
+        [
+          "06-form-en.png",
+          "Clear manual entry",
+          "Seller, buyer and vehicle details are grouped separately.",
+          "AutoContract Romanian form with fictional or empty fields"
+        ],
+        [
+          "08-settings-en.png",
+          "Make the interface yours",
+          "Language, appearance, privacy and access options in one place.",
+          "AutoContract settings in English"
+        ]
+      ],
+      "languageNote": "Screens illustrate the Romanian and English interfaces. Contract template languages are selected separately."
     },
     "pricing": {
       "eyebrow": "CHOOSE THE ACCESS YOU NEED",
       "headline": "Start for free.",
       "accent": "Continue your way.",
-      "intro": "The same Romanian and international contracts. Different usage rights and ways to organise your work.",
-      "free": {"label": "FREE", "title": "See how it works.", "amount": "0", "currency": "RON", "period": "For entry and previews", "items": ["On-device OCR and manual entry", "Romanian and international contracts", "PDF preview with a red watermark"], "limit": "The final contract without a watermark requires Personal or Pro.", "cta": "Start in the app"},
-      "personal": {"label": "PERSONAL", "title": "For your own contracts.", "amount": "99.99", "currency": "RON", "period": "One-time purchase", "items": ["Unlimited clean PDFs", "Romanian and international contracts", "Saving, printing and sharing", "Licence for non-commercial use"], "limit": "No in-app archive, client/vehicle database or Google Drive.", "cta": "Choose Personal in the app"},
-      "pro": {"label": "PROFESSIONAL", "badge": "FOR YOUR BUSINESS", "title": "For a complete workflow.", "amount": "49.99", "currency": "RON", "period": "/ month", "annual": "or RON 399.99 / year", "items": ["Unlimited clean PDFs for Romania and international contracts", "Commercial licence, including paid contract preparation services", "Local archive and client/vehicle database", "Reuse stored details and optionally connect Google Drive"], "limit": "A separate Personal purchase is not required.", "cta": "Choose Pro in the app"},
+      "intro": "Start with free OCR, entry and previews. For the final document, choose a Single unlock, Personal or Pro.",
+      "free": {
+        "label": "FREE",
+        "title": "See how it works.",
+        "amount": "0",
+        "currency": "RON",
+        "period": "For entry and previews",
+        "items": [
+          "On-device OCR and manual entry",
+          "Romanian and international contracts",
+          "PDF preview with a red watermark"
+        ],
+        "limit": "Final PDF export requires Single, Personal or Pro.",
+        "cta": "Start in the app"
+      },
+      "personal": {
+        "label": "PERSONAL",
+        "title": "For your own contracts.",
+        "amount": "149.99",
+        "currency": "RON",
+        "period": "One-time purchase",
+        "items": [
+          "Unlimited clean PDFs",
+          "Romanian and international contracts",
+          "Saving, printing and sharing",
+          "Licence for non-commercial use"
+        ],
+        "limit": "No in-app archive, client/vehicle database or Google Drive.",
+        "cta": "Choose Personal in the app"
+      },
+      "pro": {
+        "label": "PROFESSIONAL",
+        "badge": "FOR YOUR BUSINESS",
+        "title": "For a complete workflow.",
+        "amount": "49.99",
+        "currency": "RON",
+        "period": "/ month",
+        "annual": "or RON 399.99 / year",
+        "items": [
+          "Unlimited clean PDFs for Romania and international contracts",
+          "Commercial licence, including paid contract preparation services",
+          "Local archive and client/vehicle database",
+          "Reuse stored details and optionally connect Google Drive"
+        ],
+        "limit": "A separate Personal purchase is not required.",
+        "cta": "Choose Pro in the app"
+      },
       "billingLabel": "PURCHASES THROUGH GOOGLE PLAY",
       "billing": "Payments take place exclusively in the app through Google Play Billing. Google Play displays the final price, currency and any applicable taxes, which may vary by country and account.",
-      "expiry": "Pro provides commercial and archiving features while the subscription is valid. Expiry does not delete the existing archive; data recovery and deletion remain available. A separately purchased Personal licence stays active."
+      "expiry": "Pro provides commercial and archiving features while the subscription is valid. Expiry does not delete the existing archive; data recovery and deletion remain available. A separately purchased Personal licence stays active.",
+      "single": {
+        "label": "SINGLE",
+        "title": "One agreement.",
+        "amount": "39.99",
+        "currency": "RON",
+        "period": "One payment / agreement",
+        "items": [
+          "One Romanian or international agreement",
+          "Saving, printing and sharing",
+          "Correct and regenerate the same agreement",
+          "Working copy retained on this installation"
+        ],
+        "limit": "No archive or Drive. Uninstalling or clearing app data removes Single editing; separately saved PDFs remain.",
+        "cta": "Choose Single in the preview"
+      }
     },
     "data": {
       "eyebrow": "PERSONAL DOCUMENTS. CLEAR CHOICES.",
       "headline": "Your data.",
       "accent": "Your choice of route.",
       "intro": "Document reading and PDF generation run locally. Long-term organisation and connecting Google Drive are separate Pro options.",
-      "items": [["01", "OCR on your device", "Documents are processed locally to extract details. Review the suggestions before using them."], ["02", "Personal, without an in-app archive", "Work with temporary previews and keep documents you explicitly save to your chosen location."], ["03", "Pro, with optional Drive organisation", "Archive locally, reuse details and connect your own Google Drive if you choose to."]],
+      "items": [
+        [
+          "01",
+          "OCR on your device",
+          "Documents are processed locally to extract details. Review the suggestions before using them."
+        ],
+        [
+          "02",
+          "Personal, without an in-app archive",
+          "Work with temporary previews and keep documents you explicitly save to your chosen location."
+        ],
+        [
+          "03",
+          "Pro, with optional Drive organisation",
+          "Archive locally, reuse details and connect your own Google Drive if you choose to."
+        ]
+      ],
       "link": "Read the privacy policy"
     },
     "faq": {
       "eyebrow": "GOOD TO KNOW",
       "headline": "Questions before your first contract.",
       "items": [
-        ["Can I install AutoContract now?", "The app is in Closed Testing. You need a Google account authorised for testing and must join the programme. Use the same account for enrolment and installation. Contact the developer if you do not have access."],
-        ["What can I do for free?", "Read documents with OCR, enter details manually and preview Romanian and international contracts. The free preview carries a red watermark. Saving, sharing and printing the final document without a watermark requires Personal or Pro."],
-        ["Does it work without the internet?", "OCR and PDF generation run locally. Internet access is needed for purchases, restoring and verifying Google Play licences, and Google Drive features."],
-        ["Do I need to check automatically read details?", "Yes. OCR can make mistakes. Compare details with the originals, correct suggestions and manually confirm personal identification numbers and the VIN. The app does not replace checks of the documents or transaction conditions."],
-        ["Can I import the front and back of an identity card together?", "Yes. For cards with information on both sides, you can select the two photos together from your phone during import. The extracted details still need to be checked."],
-        ["Can I charge for preparing contracts with Personal?", "Personal is licensed for non-commercial use. Commercial activity, including paid contract preparation services, requires a valid Pro subscription."],
-        ["Do I need Personal before subscribing to Pro?", "No. Pro provides its features independently. If you also purchased Personal, that licence remains active after Pro expires, with the rights and limitations of the Personal plan."],
-        ["Is my archive deleted when Pro expires?", "No. Expiry does not delete the existing archive. Access returns to the rights provided by your valid licences, while recovery and deletion of existing data remain available."],
-        ["Are international contracts official forms?", "They are private templates adapted to the selected country, completed manually. They are not presented as certified official forms and acceptance by authorities is not guaranteed. Check the requirements for your transaction and the country where you will use the document."]
+        [
+          "Can I install AutoContract now?",
+          "The app is in Closed Testing. You need a Google account authorised for testing and must join the programme. Use the same account for enrolment and installation. Contact the developer if you do not have access."
+        ],
+        [
+          "What can I do for free?",
+          "On-device OCR, manual entry, data review, SPECIMEN previews and the paperwork checklist are free. Exporting a final agreement without a watermark requires Single, Personal or Pro."
+        ],
+        [
+          "What does Single unlock?",
+          "Single enables export and corrections for the same agreement on the current installation. Different parties, vehicle or template may require another unlock. No archive or Drive is included. Uninstalling or clearing app data removes local editing; separately saved PDFs remain."
+        ],
+        [
+          "Does the checklist replace official requirements?",
+          "No. It is an informational guide to help you prepare documents. Requirements can differ by situation and authority. Some forms may be supplied at the counter; confirm the current list with the relevant authority."
+        ],
+        [
+          "Does it work without the internet?",
+          "OCR and PDF generation run locally. Internet access is needed for purchases, restoring and verifying Google Play licences, and Google Drive features."
+        ],
+        [
+          "Do I need to check automatically read details?",
+          "Yes. OCR can make mistakes. Compare details with the originals, correct suggestions and manually confirm personal identification numbers and the VIN. The app does not replace checks of the documents or transaction conditions."
+        ],
+        [
+          "Can I import the front and back of an identity card together?",
+          "Yes. For cards with information on both sides, you can select the two photos together from your phone during import. The extracted details still need to be checked."
+        ],
+        [
+          "Can I charge for preparing contracts with Personal?",
+          "Personal is licensed for non-commercial use. Commercial activity, including paid contract preparation services, requires a valid Pro subscription."
+        ],
+        [
+          "Do I need Personal before subscribing to Pro?",
+          "No. Pro provides its features independently. If you also purchased Personal, that licence remains active after Pro expires, with the rights and limitations of the Personal plan."
+        ],
+        [
+          "Is my archive deleted when Pro expires?",
+          "No. Expiry does not delete the existing archive. Access returns to the rights provided by your valid licences, while recovery and deletion of existing data remain available."
+        ],
+        [
+          "Are international contracts official forms?",
+          "They are private templates adapted to the selected country, completed manually. They are not presented as certified official forms and acceptance by authorities is not guaranteed. Check the requirements for your transaction and the country where you will use the document."
+        ]
       ]
     },
     "download": {
@@ -238,9 +769,46 @@
       "privacy": "Privacy",
       "terms": "Terms of use",
       "contact": "Contact",
-      "version": "Presentation updated for 1.20.5 (73)",
+      "version": "Updated for version 1.23.0 (85)",
       "copyright": "© 2026 Selberg · AutoContract",
       "back": "Back to top"
+    },
+    "new": {
+      "eyebrow": "CLEARER FROM THE FIRST STEP",
+      "headline": "More than a form.",
+      "intro": "Tools that help you prepare, review and keep documents in a way that works for you.",
+      "items": [
+        [
+          "01",
+          "Free vehicle paperwork checklist",
+          "Select the vehicle situation for an indicative list covering local taxes, RAR and Romanian registration. Check with the relevant authority."
+        ],
+        [
+          "02",
+          "Front and back, together",
+          "Select both sides of an identity card in one import, without restarting the workflow."
+        ],
+        [
+          "03",
+          "The value and source, side by side",
+          "The field, document crop, magnifier and apply action are brought into view, including when the keyboard opens."
+        ],
+        [
+          "04",
+          "Agreement and copies in one PDF",
+          "Choose the documents for your file and review the contents before saving or sharing."
+        ],
+        [
+          "05",
+          "Resume or discard a working copy",
+          "Continue an unfinished agreement or remove an abandoned draft while keeping separately exported PDFs."
+        ],
+        [
+          "06",
+          "Romanian and English interface",
+          "Visible steps, a clear Continue action and appearance options. Pro adds archive and optional Drive organisation."
+        ]
+      ]
     }
   }
 }
