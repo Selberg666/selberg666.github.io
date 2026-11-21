@@ -421,3 +421,27 @@ html.has-reveal [data-reveal].is-visible { opacity: 1; transform: none; }
   .price-plan .button { display: none; }
   html.has-reveal [data-reveal] { opacity: 1; transform: none; }
 }
+
+/* Current product: four access levels and a six-card feature overview. */
+.pricing-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.price-plan { padding: 29px 22px 24px; }
+.price-plan .price strong { font-size: clamp(38px, 4.4vw, 59px); }
+.plan-single { border-color: #2b9f9c; background: linear-gradient(155deg, #0d3037, #081a22); }
+.updates-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.updates-grid article { padding: 27px; border: 1px solid var(--line); border-radius: 14px; background: linear-gradient(145deg, #10313a, #091c24); }
+.update-number { display: inline-block; color: var(--mint); font-size: 12px; letter-spacing: .15em; margin-bottom: 18px; }
+.updates-grid h3 { font-size: 20px; line-height: 1.35; margin: 0 0 12px; }
+.updates-grid p { color: var(--muted); font-size: 14px; line-height: 1.75; margin: 0; }
+@media (min-width: 641px) and (max-width: 1099px) {
+ .pricing-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+ .price-plan { display: flex; padding: 28px; }
+ .price-plan .price strong { font-size: 55px; }
+ .price-plan .feature-list { margin-top: 24px; padding-top: 22px; border-top: 1px solid var(--line); }
+ .updates-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 640px) {
+ .pricing-grid, .updates-grid { grid-template-columns: 1fr; }
+ .price-plan { padding: 27px; }
+ .price-plan .price strong { font-size: 57px; }
+ .updates-grid article { padding: 24px; }
+}
