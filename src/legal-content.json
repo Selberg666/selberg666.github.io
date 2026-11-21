@@ -3,7 +3,7 @@
     "ro": [
       [
         "Ce descrie această politică",
-        "AutoContract 1.20.5 (73) pregătește contracte auto românești și internaționale pe dispozitiv. Furnizorul aplicației este prezentat public ca Selberg. Contact pentru aplicație și confidențialitate: selberg90@gmail.com. Nu atribuim furnizorului identitatea ori adresa operatorului introdus de fiecare utilizator în aplicație."
+        "AutoContract 1.23.0 (85) pregătește contracte auto românești și internaționale pe dispozitiv. Furnizorul aplicației este prezentat public ca Selberg. Contact pentru aplicație și confidențialitate: selberg90@gmail.com. Nu atribuim furnizorului identitatea ori adresa operatorului introdus de fiecare utilizator în aplicație."
       ],
       [
         "Documente și date prelucrate",
@@ -14,8 +14,8 @@
         "PaddleOCR, rulat prin ONNX Runtime și OpenCV, procesează imaginile pe dispozitiv. Aplicația include și componente Google ML Kit. Codul de citire nu trimite fotografiile sau rezultatele OCR unui serviciu online de recunoaștere ori unui serviciu AI de conversație. Camera este folosită când alegi fotografierea; importul folosește selectorul Android. Copii ale imaginilor/PDF-urilor pot fi create în spațiul privat al aplicației pentru procesare și previzualizare. Originalele din galeria sau destinațiile alese de utilizator nu sunt șterse prin curățarea acestor copii temporare."
       ],
       [
-        "Sesiuni temporare și arhiva Professional",
-        "În modul gratuit și în Personal, sesiunile noi și copiile OCR folosite de acestea sunt temporare; previzualizările sunt private, iar curățarea se face la finalizare/anulare și după eliberarea operațiilor care încă folosesc fișierele. Un PDF salvat explicit rămâne la destinația aleasă. Personal nu creează o arhivă internă, o bază de clienți/vehicule sau o arhivă Drive pentru sesiunile noi. Professional permite arhivarea explicită. Păstrarea fotografiilor și sincronizarea Drive sunt alegeri separate. Datele și arhivele existente nu se șterg automat la expirarea abonamentului și rămân recuperabile și ștergibile."
+        "Sesiuni temporare, Single și arhiva Professional",
+        "În modul gratuit și în Personal, sesiunile noi și copiile OCR folosite de acestea sunt temporare; previzualizările sunt private, iar curățarea se face la finalizare/anulare și după eliberarea operațiilor care încă folosesc fișierele. Un PDF salvat explicit rămâne la destinația aleasă. Personal nu creează o arhivă internă, o bază de clienți/vehicule sau o arhivă Drive pentru sesiunile noi. Professional permite arhivarea explicită. Păstrarea fotografiilor și sincronizarea Drive sunt alegeri separate. Datele și arhivele existente nu se șterg automat la expirarea abonamentului și rămân recuperabile și ștergibile. Single păstrează criptat, în instalarea curentă, dovada deblocării și ultima variantă de lucru a contractului, pentru reluare și corecturi. Acestea nu reprezintă arhivă Pro. Dezinstalarea sau ștergerea datelor elimină reluarea și editarea Single; PDF-urile exportate separat rămân la destinația aleasă."
       ],
       [
         "Google Drive opțional",
@@ -27,7 +27,7 @@
       ],
       [
         "Achiziții Google Play și servicii tehnice",
-        "Achizițiile Personal și abonamentele Pro sunt gestionate de Google Play Billing, separat de autorizarea Drive. Aplicația folosește identificatori de produse, tokenuri și starea achizițiilor pentru verificarea, confirmarea și restaurarea drepturilor. Aceste verificări comunică cu Google; OCR-ul local nu înseamnă că toate funcțiile aplicației sunt fără rețea. Google Play Billing nu furnizează automat aplicației adresa Gmail a cumpărătorului. AutoContract nu primește de la Billing numărul complet al cardului sau codul de securitate. Conform documentației Google, SDK-urile ML Kit pot transmite informații tehnice despre dispozitiv, aplicație și performanța funcțiilor pentru diagnosticare și analiză a utilizării. Acestea sunt distincte de documentele procesate local."
+        "Deblocările Single, achizițiile Personal și abonamentele Pro sunt gestionate de Google Play Billing, separat de autorizarea Drive. Aplicația folosește identificatori de produse, tokenuri și starea achizițiilor pentru verificarea, confirmarea și restaurarea drepturilor. Aceste verificări comunică cu Google; OCR-ul local nu înseamnă că toate funcțiile aplicației sunt fără rețea. Google Play Billing nu furnizează automat aplicației adresa Gmail a cumpărătorului. AutoContract nu primește de la Billing numărul complet al cardului sau codul de securitate. Conform documentației Google, SDK-urile ML Kit pot transmite informații tehnice despre dispozitiv, aplicație și performanța funcțiilor pentru diagnosticare și analiză a utilizării. Acestea sunt distincte de documentele procesate local. Pentru legarea unei plăți Single de instalare și contract sunt folosiți identificatori opaci ai instalării și contractului; fotografiile actelor nu sunt transmise ca parte a acestei verificări Billing."
       ],
       [
         "Export, imprimare, distribuire și rapoarte",
@@ -45,7 +45,7 @@
     "en": [
       [
         "Scope and contact",
-        "AutoContract 1.20.5 (73) prepares Romanian and international vehicle sale contracts on the device. The application provider is publicly identified as Selberg. Application and privacy contact: selberg90@gmail.com. The identity or address entered by an individual app user as their own data controller is not presented as the provider’s legal identity."
+        "AutoContract 1.23.0 (85) prepares Romanian and international vehicle sale contracts on the device. The application provider is publicly identified as Selberg. Application and privacy contact: selberg90@gmail.com. The identity or address entered by an individual app user as their own data controller is not presented as the provider’s legal identity."
       ],
       [
         "Documents and data processed",
@@ -56,8 +56,8 @@
         "PaddleOCR, running through ONNX Runtime and OpenCV, processes images on the device. The app also includes Google ML Kit components. Its document-reading code does not send photographs or OCR results to an online recognition service or conversational AI service. Camera access is used when you choose to take a photograph; imports use the Android picker. Images/PDFs can be copied into private app storage for processing and preview. Cleaning up these temporary copies does not delete originals from your gallery or destinations you selected."
       ],
       [
-        "Temporary sessions and the Professional archive",
-        "New free and Personal sessions and their OCR copies are temporary; previews remain private and cleanup occurs when finishing/cancelling and after ongoing operations release their file references. An explicitly saved PDF remains at the destination you chose. Personal does not create an in-app archive, client/vehicle database or Drive archive for new sessions. Professional supports explicit archiving; retaining photographs and synchronising with Drive are separate choices. Existing data and archives are not automatically erased when a subscription expires and remain recoverable and deletable."
+        "Temporary sessions, Single and the Professional archive",
+        "New free and Personal sessions and their OCR copies are temporary; previews remain private and cleanup occurs when finishing/cancelling and after ongoing operations release their file references. An explicitly saved PDF remains at the destination you chose. Personal does not create an in-app archive, client/vehicle database or Drive archive for new sessions. Professional supports explicit archiving; retaining photographs and synchronising with Drive are separate choices. Existing data and archives are not automatically erased when a subscription expires and remain recoverable and deletable. Single stores the unlock evidence and the latest working version of the agreement encrypted on the current installation for resuming and corrections. This is separate from the Pro archive. Uninstalling or clearing app data removes Single resuming and editing; separately exported PDFs remain at their chosen destination."
       ],
       [
         "Optional Google Drive",
@@ -69,7 +69,7 @@
       ],
       [
         "Google Play purchases and technical services",
-        "Personal purchases and Pro subscriptions use Google Play Billing, separately from Drive authorisation. The app uses product identifiers, purchase tokens and purchase status to verify, acknowledge and restore entitlements. These checks communicate with Google; local OCR does not mean every app feature is offline. Google Play Billing does not automatically give the app the purchaser’s Gmail address. AutoContract does not receive complete card numbers or card security codes from Billing. Google states that ML Kit SDKs may transmit technical device, app and performance information for diagnostics and usage analytics. This is separate from documents processed locally."
+        "Single unlocks, Personal purchases and Pro subscriptions use Google Play Billing, separately from Drive authorisation. The app uses product identifiers, purchase tokens and purchase status to verify, acknowledge and restore entitlements. These checks communicate with Google; local OCR does not mean every app feature is offline. Google Play Billing does not automatically give the app the purchaser’s Gmail address. AutoContract does not receive complete card numbers or card security codes from Billing. Google states that ML Kit SDKs may transmit technical device, app and performance information for diagnostics and usage analytics. This is separate from documents processed locally. Opaque installation and agreement identifiers are used to bind a Single payment to the installation and agreement; document photographs are not transmitted as part of this Billing check."
       ],
       [
         "Export, printing, sharing and reports",
