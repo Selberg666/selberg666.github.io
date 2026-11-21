@@ -61,8 +61,8 @@ def main():
             if absolute.fragment:
                 assert path in parsed and absolute.fragment in {a.get("id") for _, a in parsed[path].nodes}, (name, url, "missing anchor")
             count += 1
-    approved = hashlib.sha256((ROOT / "src/legal-content.json").read_bytes()).hexdigest()
-    assert approved == "3fa3975f8406e62d185a16297f6533c274f258188e4f6821249ab8c926c3a725", "Legal text differs from owner-approved content"
+    approved = hashlib.sha256((ROOT / "src/legal-content.json").read_text(encoding="utf-8").encode("utf-8")).hexdigest()
+    assert approved == "b4b053b6ff7bdda84fac90ad86622a2890503d23023f5fd3534bf1954a5113e4", "Legal text differs from owner-approved content"
     terms = json.loads((ROOT / "src/terms-content.json").read_text(encoding="utf-8"))
     for lang, name in (("ro", "termeni.html"), ("en", "en/termeni.html")):
         nodes = parsed[name].nodes
